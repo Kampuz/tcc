@@ -1,5 +1,5 @@
 *.toc
-*.syntectex.gz
+*.synctex.gz
 *.snm
 *.out
 *.nav
