@@ -1,0 +1,41 @@
+% Define o tipo de documento como "article", com fonte de 12pt
+% A opção 'nodisplayskipstretch' evita que o LaTeX altere o espaçamento ao redor de fórmulas exibidas
+\documentclass[12pt,nodisplayskipstretch]{article}
+
+% Importa o arquivo com as configurações gerais do projeto (pacotes, margens, fonte etc.)
+\usepackage{config/commands}
+
+% Importa o arquivo de configurações adicionais (talvez pacotes específicos ou definições de estilo)
+\usepackage{config/config}
+
+\begin{document} % Início do conteúdo do documento
+% ----------------------------
+% SEÇÕES DO DOCUMENTO
+% ----------------------------
+
+% Importa a capa do trabalho
+\input{sections/0-capa}
+\newpage
+% Importa a seção de identificação do projeto (pode conter título, autor, orientador, etc.)
+\input{sections/1-identificacao}
+\newpage
+% Importa a introdução do projeto, onde o tema é apresentado
+\input{sections/2-introducao}
+\newpage
+% Importa a seção de objetivos do projeto, onde são definidos os objetivos gerais e específicos
+\input{sections/3-objetivos}
+% Importa a seção de metodologia, onde são descritos os métodos que serão utilizados no projeto
+\input{sections/5-metodologia}
+
+% Importa a seção de equipamento e material necessário para o desenvolvimento do projeto
+\input{sections/6-equipamento-material}
+
+% Importa o cronograma de execução do projeto, com as etapas e os prazos
+\input{sections/7-cronograma-de-execucao}
+
+
+% Importa as referências bibliográficas utilizadas no projeto
+\newpage
+\input{sections/8-referencias}
+
+\end{document} % Fim do conteúdo do documento
