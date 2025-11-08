@@ -1,3 +1,3 @@
 # tcc
 
-## Tema: aprendizado profundo em defeitos ferroviários
+## Tema: Aprendizado profundo na detecção de defeitos ferroviários
