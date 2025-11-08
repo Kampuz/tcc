@@ -1,6 +1,6 @@
-PWD c:\Users\Miguel\Desktop\Faculdade\TCC\Revisado\apresentacao
+PWD c:\Users\Miguel\Desktop\Faculdade\TCC\tcc-repo\anteprojeto\apresentacao
 INPUT C:\Users\Miguel\AppData\Local\MiKTeX\miktex\data\le\pdftex\pdflatex.fmt
-INPUT c:\Users\Miguel\Desktop\Faculdade\TCC\Revisado\apresentacao\apresentacao.tex
+INPUT c:\Users\Miguel\Desktop\Faculdade\TCC\tcc-repo\anteprojeto\apresentacao\apresentacao.tex
 OUTPUT apresentacao.log
 INPUT C:\Users\Miguel\AppData\Local\Programs\MiKTeX\tex\latex\beamer\beamer.cls
 INPUT C:\Users\Miguel\AppData\Local\Programs\MiKTeX\tex\latex\beamer\beamer.cls

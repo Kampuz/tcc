@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1762641517.0583 "c:/Users/Miguel/Desktop/Faculdade/TCC/Revisado/apresentacao/apresentacao.tex" "apresentacao.pdf" "apresentacao" 1762641518.82802 0
+["pdflatex"] 1762641992.97809 "c:/Users/Miguel/Desktop/Faculdade/TCC/tcc-repo/anteprojeto/apresentacao/apresentacao.tex" "apresentacao.pdf" "apresentacao" 1762641995.00713 0
   "C:/Users/Miguel/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1762639900 82686 2381c3433487640bf26aa76a10db7eb2 ""
   "C:/Users/Miguel/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1761692077 13322393 c4ff9152f0b3ff46c28255a7ecf4019b ""
   "C:/Users/Miguel/AppData/Local/Programs/MiKTeX/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1233951848 1004 54797486969f23fa377b128694d548df ""
@@ -190,15 +190,15 @@
   "C:/Users/Miguel/AppData/Local/Programs/MiKTeX/tex/latex/translator/translator.sty" 1622471510 8765 56d370785f0143111ff9898b5adfe08e ""
   "C:/Users/Miguel/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty" 1388490452 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
   "C:/Users/Miguel/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1729265222 55384 b454dec21c2d9f45ec0b793f0995b992 ""
-  "apresentacao.aux" 1762641518 535 afc7fde5282c3ae365525c6d4b743061 "pdflatex"
-  "apresentacao.nav" 1762641518 1288 c8b5f7a6aab5dea13a8f23d88b99c811 "pdflatex"
-  "apresentacao.out" 1762641518 165 c2ed2efac435b188336a7fffbc210cc1 "pdflatex"
-  "apresentacao.tex" 1762641516 514 570bf6dd88615464c7b63851768db8d9 ""
-  "apresentacao.toc" 1762641518 60 c20f31b27ab514512403b46d3c7ce021 "pdflatex"
-  "c:/Users/Miguel/Desktop/Faculdade/TCC/Revisado/apresentacao/apresentacao.tex" 1762641516 514 570bf6dd88615464c7b63851768db8d9 ""
-  "capa/capa.aux" 1762641518 891 253f4060abdd662754a1913e7d9e935d "pdflatex"
+  "apresentacao.aux" 1762641994 535 afc7fde5282c3ae365525c6d4b743061 "pdflatex"
+  "apresentacao.nav" 1762641994 1288 c8b5f7a6aab5dea13a8f23d88b99c811 "pdflatex"
+  "apresentacao.out" 1762641994 165 c2ed2efac435b188336a7fffbc210cc1 "pdflatex"
+  "apresentacao.tex" 1762641992 473 ae9b5c5e135de01be738f4db0157f6be ""
+  "apresentacao.toc" 1762641994 60 c20f31b27ab514512403b46d3c7ce021 "pdflatex"
+  "c:/Users/Miguel/Desktop/Faculdade/TCC/tcc-repo/anteprojeto/apresentacao/apresentacao.tex" 1762641992 473 ae9b5c5e135de01be738f4db0157f6be ""
+  "capa/capa.aux" 1762641994 891 253f4060abdd662754a1913e7d9e935d "pdflatex"
   "capa/capa.tex" 1762641390 242 b8bc509e62f0f06c0d2ff2e7e8cf543f ""
-  "conteudo/1-introducao.aux" 1762641518 2063 8cebd9ebf5f96000c3efded7b8fd41f8 "pdflatex"
+  "conteudo/1-introducao.aux" 1762641994 2063 8cebd9ebf5f96000c3efded7b8fd41f8 "pdflatex"
   "conteudo/1-introducao.tex" 1762641395 6165 a0b047727364fdab7b89b84b3afcaf07 ""
   (generated)
   "apresentacao.aux"
