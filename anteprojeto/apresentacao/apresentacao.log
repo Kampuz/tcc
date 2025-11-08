@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.10.28)  8 NOV 2025 19:52
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.10.28)  8 NOV 2025 19:55
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -534,7 +534,7 @@ Package: amsthm 2020/05/29 v2.20.6
 ) (C:\Users\Miguel\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerouterthemedefault.sty))) (C:\Users\Miguel\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerthemeWarsaw.sty (C:\Users\Miguel\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerinnerthemerounded.sty) (C:\Users\Miguel\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerouterthemeshadow.sty (C:\Users\Miguel\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerouterthemesplit.sty)) (C:\Users\Miguel\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamercolorthemeorchid.sty) (C:\Users\Miguel\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamercolorthemewhale.sty)) (C:\Users\Miguel\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
 File: l3backend-pdftex.def 2025-10-09 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count358
-) (apresentacao.aux (capa/capa.aux) (conteudo/1-introducao.aux) (conteudo/2-objetivos.aux) (conteudo/3-justificativa.aux) (conteudo/4-metodologia.aux) (conteudo/5-equipamentos.aux) (conteudo/6-cronograma.aux) (conteudo/7-referencia.aux))
+) (apresentacao.aux)
 \openout1 = `apresentacao.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 5.
@@ -610,7 +610,6 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
 Package hyperref Info: Link coloring OFF on input line 5.
- (apresentacao.out) (apresentacao.out)
 \@outlinefile=\write5
 \openout5 = `apresentacao.out'.
 
@@ -688,7 +687,9 @@ Package hyperref Warning: Option `pdfauthor' has already been used,
 [1{C:/Users/Miguel/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}
 
 
-] (apresentacao.toc)
+]
+No file apresentacao.toc.
+
 
 [2
 
@@ -758,55 +759,1560 @@ LaTeX Warning: Citation `LeCun2015' undefined on input line 72.
 ])
 \openout2 = `conteudo/2-objetivos.aux'.
 
- (conteudo/2-objetivos.tex)
-\openout2 = `conteudo/3-justificativa.aux'.
+ (conteudo/2-objetivos.tex
+conteudo/2-objetivos.tex:1: Undefined control sequence.
+l.1 \^^@
+        s^^@e^^@c^^@t^^@i^^@o^^@n^^@{^^@O^^@b^^@j^^@e^^@t^^@i^^@v^^@o^^@s^^@...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
 
- (conteudo/3-justificativa.tex)
-\openout2 = `conteudo/4-metodologia.aux'.
+conteudo/2-objetivos.tex:1: Text line contains an invalid character.
+l.1 \^^@s^^@
+            e^^@c^^@t^^@i^^@o^^@n^^@{^^@O^^@b^^@j^^@e^^@t^^@i^^@v^^@o^^@s^^@...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
 
- (conteudo/4-metodologia.tex)
-\openout2 = `conteudo/5-equipamentos.aux'.
+conteudo/2-objetivos.tex:1: Text line contains an invalid character.
+l.1 \^^@s^^@e^^@
+                c^^@t^^@i^^@o^^@n^^@{^^@O^^@b^^@j^^@e^^@t^^@i^^@v^^@o^^@s^^@...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
 
- (conteudo/5-equipamentos.tex)
-\openout2 = `conteudo/6-cronograma.aux'.
+conteudo/2-objetivos.tex:1: Text line contains an invalid character.
+l.1 \^^@s^^@e^^@c^^@
+                    t^^@i^^@o^^@n^^@{^^@O^^@b^^@j^^@e^^@t^^@i^^@v^^@o^^@s^^@...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
 
- (conteudo/6-cronograma.tex)
-\openout2 = `conteudo/7-referencia.aux'.
+conteudo/2-objetivos.tex:1: Text line contains an invalid character.
+l.1 \^^@s^^@e^^@c^^@t^^@
+                        i^^@o^^@n^^@{^^@O^^@b^^@j^^@e^^@t^^@i^^@v^^@o^^@s^^@...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
 
- (conteudo/7-referencia.tex)
-\tf@nav=\write6
-\openout6 = `apresentacao.nav'.
+conteudo/2-objetivos.tex:1: Text line contains an invalid character.
+l.1 \^^@s^^@e^^@c^^@t^^@i^^@
+                            o^^@n^^@{^^@O^^@b^^@j^^@e^^@t^^@i^^@v^^@o^^@s^^@...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
 
-\tf@toc=\write7
-\openout7 = `apresentacao.toc'.
+conteudo/2-objetivos.tex:1: Text line contains an invalid character.
+l.1 \^^@s^^@e^^@c^^@t^^@i^^@o^^@
+                                n^^@{^^@O^^@b^^@j^^@e^^@t^^@i^^@v^^@o^^@s^^@...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
 
-\tf@snm=\write8
-\openout8 = `apresentacao.snm'.
+conteudo/2-objetivos.tex:1: Text line contains an invalid character.
+l.1 \^^@s^^@e^^@c^^@t^^@i^^@o^^@n^^@
+                                    {^^@O^^@b^^@j^^@e^^@t^^@i^^@v^^@o^^@s^^@...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
 
- (apresentacao.aux (capa/capa.aux) (conteudo/1-introducao.aux) (conteudo/2-objetivos.aux) (conteudo/3-justificativa.aux) (conteudo/4-metodologia.aux) (conteudo/5-equipamentos.aux) (conteudo/6-cronograma.aux) (conteudo/7-referencia.aux))
- ***********
-LaTeX2e <2025-06-01> patch level 1
-L3 programming layer <2025-10-09>
- ***********
+conteudo/2-objetivos.tex:1: Text line contains an invalid character.
+l.1 \^^@s^^@e^^@c^^@t^^@i^^@o^^@n^^@{^^@
+                                        O^^@b^^@j^^@e^^@t^^@i^^@v^^@o^^@s^^@...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+conteudo/2-objetivos.tex:1: Text line contains an invalid character.
+l.1 \^^@s^^@e^^@c^^@t^^@i^^@o^^@n^^@{^^@O^^@
+                                            b^^@j^^@e^^@t^^@i^^@v^^@o^^@s^^@...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+conteudo/2-objetivos.tex:1: Text line contains an invalid character.
+l.1 \^^@s^^@e^^@c^^@t^^@i^^@o^^@n^^@{^^@O^^@b^^@
+                                                j^^@e^^@t^^@i^^@v^^@o^^@s^^@...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+conteudo/2-objetivos.tex:1: Text line contains an invalid character.
+l.1 ...^^@e^^@c^^@t^^@i^^@o^^@n^^@{^^@O^^@b^^@j^^@
+                                                  e^^@t^^@i^^@v^^@o^^@s^^@ ^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+conteudo/2-objetivos.tex:1: Text line contains an invalid character.
+l.1 ...^^@c^^@t^^@i^^@o^^@n^^@{^^@O^^@b^^@j^^@e^^@
+                                                  t^^@i^^@v^^@o^^@s^^@ ^^@d^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+conteudo/2-objetivos.tex:1: Text line contains an invalid character.
+l.1 ...^^@t^^@i^^@o^^@n^^@{^^@O^^@b^^@j^^@e^^@t^^@
+                                                  i^^@v^^@o^^@s^^@ ^^@d^^@o^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+conteudo/2-objetivos.tex:1: Text line contains an invalid character.
+l.1 ...^^@i^^@o^^@n^^@{^^@O^^@b^^@j^^@e^^@t^^@i^^@
+                                                  v^^@o^^@s^^@ ^^@d^^@o^^@ ^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+conteudo/2-objetivos.tex:1: Text line contains an invalid character.
+l.1 ...^^@o^^@n^^@{^^@O^^@b^^@j^^@e^^@t^^@i^^@v^^@
+                                                  o^^@s^^@ ^^@d^^@o^^@ ^^@p^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+conteudo/2-objetivos.tex:1: Text line contains an invalid character.
+l.1 ...^^@n^^@{^^@O^^@b^^@j^^@e^^@t^^@i^^@v^^@o^^@
+                                                  s^^@ ^^@d^^@o^^@ ^^@p^^@r^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+conteudo/2-objetivos.tex:1: Text line contains an invalid character.
+l.1 ...^^@{^^@O^^@b^^@j^^@e^^@t^^@i^^@v^^@o^^@s^^@
+                                                   ^^@d^^@o^^@ ^^@p^^@r^^@o^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+conteudo/2-objetivos.tex:1: Text line contains an invalid character.
+l.1 ...^^@O^^@b^^@j^^@e^^@t^^@i^^@v^^@o^^@s^^@ ^^@
+                                                  d^^@o^^@ ^^@p^^@r^^@o^^@j^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+conteudo/2-objetivos.tex:1: Text line contains an invalid character.
+l.1 ...^^@b^^@j^^@e^^@t^^@i^^@v^^@o^^@s^^@ ^^@d^^@
+                                                  o^^@ ^^@p^^@r^^@o^^@j^^@e^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+conteudo/2-objetivos.tex:1: Text line contains an invalid character.
+l.1 ...^^@j^^@e^^@t^^@i^^@v^^@o^^@s^^@ ^^@d^^@o^^@
+                                                   ^^@p^^@r^^@o^^@j^^@e^^@t^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+conteudo/2-objetivos.tex:1: Text line contains an invalid character.
+l.1 ...^^@e^^@t^^@i^^@v^^@o^^@s^^@ ^^@d^^@o^^@ ^^@
+                                                  p^^@r^^@o^^@j^^@e^^@t^^@o^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+conteudo/2-objetivos.tex:1: Text line contains an invalid character.
+l.1 ...^^@t^^@i^^@v^^@o^^@s^^@ ^^@d^^@o^^@ ^^@p^^@
+                                                  r^^@o^^@j^^@e^^@t^^@o^^@}^^@
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+conteudo/2-objetivos.tex:1: Text line contains an invalid character.
+l.1 ...^^@i^^@v^^@o^^@s^^@ ^^@d^^@o^^@ ^^@p^^@r^^@
+                                                  o^^@j^^@e^^@t^^@o^^@}^^@
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+conteudo/2-objetivos.tex:1: Text line contains an invalid character.
+l.1 ...^^@v^^@o^^@s^^@ ^^@d^^@o^^@ ^^@p^^@r^^@o^^@
+                                                  j^^@e^^@t^^@o^^@}^^@
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+conteudo/2-objetivos.tex:1: Text line contains an invalid character.
+l.1 ...^^@o^^@s^^@ ^^@d^^@o^^@ ^^@p^^@r^^@o^^@j^^@
+                                                  e^^@t^^@o^^@}^^@
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+conteudo/2-objetivos.tex:1: Text line contains an invalid character.
+l.1 ...^^@s^^@ ^^@d^^@o^^@ ^^@p^^@r^^@o^^@j^^@e^^@
+                                                  t^^@o^^@}^^@
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+conteudo/2-objetivos.tex:1: Text line contains an invalid character.
+l.1 ...^^@ ^^@d^^@o^^@ ^^@p^^@r^^@o^^@j^^@e^^@t^^@
+                                                  o^^@}^^@
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+conteudo/2-objetivos.tex:1: Text line contains an invalid character.
+l.1 ...^^@d^^@o^^@ ^^@p^^@r^^@o^^@j^^@e^^@t^^@o^^@
+                                                  }^^@
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+conteudo/2-objetivos.tex:1: Text line contains an invalid character.
+l.1 ...^^@o^^@ ^^@p^^@r^^@o^^@j^^@e^^@t^^@o^^@}^^@
+                                                  
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+conteudo/2-objetivos.tex:2: Text line contains an invalid character.
+l.2 ^^@
+       
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+conteudo/2-objetivos.tex:3: Text line contains an invalid character.
+l.3 ^^@
+       %^^@ ^^@\^^@s^^@u^^@b^^@s^^@e^^@c^^@t^^@i^^@o^^@n^^@{^^@O^^@b^^@j^^@e...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+conteudo/2-objetivos.tex:4: Text line contains an invalid character.
+l.4 ^^@
+       
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+conteudo/2-objetivos.tex:5: Text line contains an invalid character.
+l.5 ^^@
+       %^^@ ^^@\^^@b^^@e^^@g^^@i^^@n^^@{^^@f^^@r^^@a^^@m^^@e^^@}^^@{^^@O^^@b...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+conteudo/2-objetivos.tex:6: Text line contains an invalid character.
+l.6 ^^@
+       
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+conteudo/2-objetivos.tex:7: Text line contains an invalid character.
+l.7 ^^@
+       %^^@ ^^@ ^^@ ^^@ ^^@ ^^@O^^@ ^^@o^^@b^^@j^^@e^^@t^^@i^^@v^^@o^^@ ^^@d...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+conteudo/2-objetivos.tex:8: Text line contains an invalid character.
+l.8 ^^@
+       
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+conteudo/2-objetivos.tex:9: Text line contains an invalid character.
+l.9 ^^@
+       %^^@ ^^@\^^@e^^@n^^@d^^@{^^@f^^@r^^@a^^@m^^@e^^@}^^@
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+conteudo/2-objetivos.tex:10: Text line contains an invalid character.
+l.10 ^^@
+        
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+conteudo/2-objetivos.tex:11: Text line contains an invalid character.
+l.11 ^^@
+        
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+conteudo/2-objetivos.tex:12: Text line contains an invalid character.
+l.12 ^^@
+        
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+conteudo/2-objetivos.tex:13: Text line contains an invalid character.
+l.13 ^^@
+        %^^@ ^^@\^^@s^^@u^^@b^^@s^^@e^^@c^^@t^^@i^^@o^^@n^^@{^^@O^^@b^^@j^^@...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+conteudo/2-objetivos.tex:14: Text line contains an invalid character.
+l.14 ^^@
+        
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+conteudo/2-objetivos.tex:15: Text line contains an invalid character.
+l.15 ^^@
+        \^^@b^^@e^^@g^^@i^^@n^^@{^^@f^^@r^^@a^^@m^^@e^^@}^^@{^^@O^^@b^^@j^^@...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+conteudo/2-objetivos.tex:15: Undefined control sequence.
+l.15 ^^@\^^@
+            b^^@e^^@g^^@i^^@n^^@{^^@f^^@r^^@a^^@m^^@e^^@}^^@{^^@O^^@b^^@j^^@...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+conteudo/2-objetivos.tex:15: Text line contains an invalid character.
+l.15 ^^@\^^@b^^@
+                e^^@g^^@i^^@n^^@{^^@f^^@r^^@a^^@m^^@e^^@}^^@{^^@O^^@b^^@j^^@...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+conteudo/2-objetivos.tex:15: Text line contains an invalid character.
+l.15 ^^@\^^@b^^@e^^@
+                    g^^@i^^@n^^@{^^@f^^@r^^@a^^@m^^@e^^@}^^@{^^@O^^@b^^@j^^@...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+conteudo/2-objetivos.tex:15: Text line contains an invalid character.
+l.15 ^^@\^^@b^^@e^^@g^^@
+                        i^^@n^^@{^^@f^^@r^^@a^^@m^^@e^^@}^^@{^^@O^^@b^^@j^^@...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+conteudo/2-objetivos.tex:15: Text line contains an invalid character.
+l.15 ^^@\^^@b^^@e^^@g^^@i^^@
+                            n^^@{^^@f^^@r^^@a^^@m^^@e^^@}^^@{^^@O^^@b^^@j^^@...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+conteudo/2-objetivos.tex:15: Text line contains an invalid character.
+l.15 ^^@\^^@b^^@e^^@g^^@i^^@n^^@
+                                {^^@f^^@r^^@a^^@m^^@e^^@}^^@{^^@O^^@b^^@j^^@...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+conteudo/2-objetivos.tex:15: Text line contains an invalid character.
+l.15 ^^@\^^@b^^@e^^@g^^@i^^@n^^@{^^@
+                                    f^^@r^^@a^^@m^^@e^^@}^^@{^^@O^^@b^^@j^^@...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+conteudo/2-objetivos.tex:15: Text line contains an invalid character.
+l.15 ^^@\^^@b^^@e^^@g^^@i^^@n^^@{^^@f^^@
+                                        r^^@a^^@m^^@e^^@}^^@{^^@O^^@b^^@j^^@...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+conteudo/2-objetivos.tex:15: Text line contains an invalid character.
+l.15 ^^@\^^@b^^@e^^@g^^@i^^@n^^@{^^@f^^@r^^@
+                                            a^^@m^^@e^^@}^^@{^^@O^^@b^^@j^^@...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+conteudo/2-objetivos.tex:15: Text line contains an invalid character.
+l.15 ^^@\^^@b^^@e^^@g^^@i^^@n^^@{^^@f^^@r^^@a^^@
+                                                m^^@e^^@}^^@{^^@O^^@b^^@j^^@...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+conteudo/2-objetivos.tex:15: Text line contains an invalid character.
+l.15 ...^@b^^@e^^@g^^@i^^@n^^@{^^@f^^@r^^@a^^@m^^@
+                                                  e^^@}^^@{^^@O^^@b^^@j^^@e^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+conteudo/2-objetivos.tex:15: Text line contains an invalid character.
+l.15 ...^@e^^@g^^@i^^@n^^@{^^@f^^@r^^@a^^@m^^@e^^@
+                                                  }^^@{^^@O^^@b^^@j^^@e^^@t^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+conteudo/2-objetivos.tex:15: Text line contains an invalid character.
+l.15 ...^@g^^@i^^@n^^@{^^@f^^@r^^@a^^@m^^@e^^@}^^@
+                                                  {^^@O^^@b^^@j^^@e^^@t^^@i^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+conteudo/2-objetivos.tex:15: Text line contains an invalid character.
+l.15 ...^@i^^@n^^@{^^@f^^@r^^@a^^@m^^@e^^@}^^@{^^@
+                                                  O^^@b^^@j^^@e^^@t^^@i^^@v^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+conteudo/2-objetivos.tex:15: Text line contains an invalid character.
+l.15 ...^@n^^@{^^@f^^@r^^@a^^@m^^@e^^@}^^@{^^@O^^@
+                                                  b^^@j^^@e^^@t^^@i^^@v^^@o^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+conteudo/2-objetivos.tex:15: Text line contains an invalid character.
+l.15 ...^@{^^@f^^@r^^@a^^@m^^@e^^@}^^@{^^@O^^@b^^@
+                                                  j^^@e^^@t^^@i^^@v^^@o^^@s^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+conteudo/2-objetivos.tex:15: Text line contains an invalid character.
+l.15 ...^@f^^@r^^@a^^@m^^@e^^@}^^@{^^@O^^@b^^@j^^@
+                                                  e^^@t^^@i^^@v^^@o^^@s^^@}^^@
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+conteudo/2-objetivos.tex:15: Text line contains an invalid character.
+l.15 ...^@r^^@a^^@m^^@e^^@}^^@{^^@O^^@b^^@j^^@e^^@
+                                                  t^^@i^^@v^^@o^^@s^^@}^^@
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+conteudo/2-objetivos.tex:15: Text line contains an invalid character.
+l.15 ...^@a^^@m^^@e^^@}^^@{^^@O^^@b^^@j^^@e^^@t^^@
+                                                  i^^@v^^@o^^@s^^@}^^@
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+conteudo/2-objetivos.tex:15: Text line contains an invalid character.
+l.15 ...^@m^^@e^^@}^^@{^^@O^^@b^^@j^^@e^^@t^^@i^^@
+                                                  v^^@o^^@s^^@}^^@
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+conteudo/2-objetivos.tex:15: Text line contains an invalid character.
+l.15 ...^@e^^@}^^@{^^@O^^@b^^@j^^@e^^@t^^@i^^@v^^@
+                                                  o^^@s^^@}^^@
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+conteudo/2-objetivos.tex:15: Text line contains an invalid character.
+l.15 ...^@}^^@{^^@O^^@b^^@j^^@e^^@t^^@i^^@v^^@o^^@
+                                                  s^^@}^^@
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+conteudo/2-objetivos.tex:15: Text line contains an invalid character.
+l.15 ...^@{^^@O^^@b^^@j^^@e^^@t^^@i^^@v^^@o^^@s^^@
+                                                  }^^@
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+conteudo/2-objetivos.tex:15: Text line contains an invalid character.
+l.15 ...^@O^^@b^^@j^^@e^^@t^^@i^^@v^^@o^^@s^^@}^^@
+                                                  
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+conteudo/2-objetivos.tex:16: Text line contains an invalid character.
+l.16 ^^@
+        
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+conteudo/2-objetivos.tex:17: Text line contains an invalid character.
+l.17 ^^@
+        \^^@n^^@o^^@c^^@i^^@t^^@e^^@{^^@K^^@h^^@a^^@n^^@2^^@0^^@2^^@0^^@,^^@...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+conteudo/2-objetivos.tex:17: Undefined control sequence.
+l.17 ^^@\^^@
+            n^^@o^^@c^^@i^^@t^^@e^^@{^^@K^^@h^^@a^^@n^^@2^^@0^^@2^^@0^^@,^^@...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+conteudo/2-objetivos.tex:17: Text line contains an invalid character.
+l.17 ^^@\^^@n^^@
+                o^^@c^^@i^^@t^^@e^^@{^^@K^^@h^^@a^^@n^^@2^^@0^^@2^^@0^^@,^^@...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+conteudo/2-objetivos.tex:17: Text line contains an invalid character.
+l.17 ^^@\^^@n^^@o^^@
+                    c^^@i^^@t^^@e^^@{^^@K^^@h^^@a^^@n^^@2^^@0^^@2^^@0^^@,^^@...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+conteudo/2-objetivos.tex:17: Text line contains an invalid character.
+l.17 ^^@\^^@n^^@o^^@c^^@
+                        i^^@t^^@e^^@{^^@K^^@h^^@a^^@n^^@2^^@0^^@2^^@0^^@,^^@...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+conteudo/2-objetivos.tex:17: Text line contains an invalid character.
+l.17 ^^@\^^@n^^@o^^@c^^@i^^@
+                            t^^@e^^@{^^@K^^@h^^@a^^@n^^@2^^@0^^@2^^@0^^@,^^@...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+conteudo/2-objetivos.tex:17: Text line contains an invalid character.
+l.17 ^^@\^^@n^^@o^^@c^^@i^^@t^^@
+                                e^^@{^^@K^^@h^^@a^^@n^^@2^^@0^^@2^^@0^^@,^^@...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+conteudo/2-objetivos.tex:17: Text line contains an invalid character.
+l.17 ^^@\^^@n^^@o^^@c^^@i^^@t^^@e^^@
+                                    {^^@K^^@h^^@a^^@n^^@2^^@0^^@2^^@0^^@,^^@...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+conteudo/2-objetivos.tex:17: Text line contains an invalid character.
+l.17 ^^@\^^@n^^@o^^@c^^@i^^@t^^@e^^@{^^@
+                                        K^^@h^^@a^^@n^^@2^^@0^^@2^^@0^^@,^^@...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+conteudo/2-objetivos.tex:17: Text line contains an invalid character.
+l.17 ^^@\^^@n^^@o^^@c^^@i^^@t^^@e^^@{^^@K^^@
+                                            h^^@a^^@n^^@2^^@0^^@2^^@0^^@,^^@...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+conteudo/2-objetivos.tex:17: Text line contains an invalid character.
+l.17 ^^@\^^@n^^@o^^@c^^@i^^@t^^@e^^@{^^@K^^@h^^@
+                                                a^^@n^^@2^^@0^^@2^^@0^^@,^^@...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+conteudo/2-objetivos.tex:17: Text line contains an invalid character.
+l.17 ...^@n^^@o^^@c^^@i^^@t^^@e^^@{^^@K^^@h^^@a^^@
+                                                  n^^@2^^@0^^@2^^@0^^@,^^@8^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+conteudo/2-objetivos.tex:17: Text line contains an invalid character.
+l.17 ...^@o^^@c^^@i^^@t^^@e^^@{^^@K^^@h^^@a^^@n^^@
+                                                  2^^@0^^@2^^@0^^@,^^@8^^@8^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+conteudo/2-objetivos.tex:17: Text line contains an invalid character.
+l.17 ...^@c^^@i^^@t^^@e^^@{^^@K^^@h^^@a^^@n^^@2^^@
+                                                  0^^@2^^@0^^@,^^@8^^@8^^@6^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+conteudo/2-objetivos.tex:17: Text line contains an invalid character.
+l.17 ...^@i^^@t^^@e^^@{^^@K^^@h^^@a^^@n^^@2^^@0^^@
+                                                  2^^@0^^@,^^@8^^@8^^@6^^@2^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+conteudo/2-objetivos.tex:17: Text line contains an invalid character.
+l.17 ...^@t^^@e^^@{^^@K^^@h^^@a^^@n^^@2^^@0^^@2^^@
+                                                  0^^@,^^@8^^@8^^@6^^@2^^@6^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+conteudo/2-objetivos.tex:17: Text line contains an invalid character.
+l.17 ...^@e^^@{^^@K^^@h^^@a^^@n^^@2^^@0^^@2^^@0^^@
+                                                  ,^^@8^^@8^^@6^^@2^^@6^^@8^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+conteudo/2-objetivos.tex:17: Text line contains an invalid character.
+l.17 ...^@{^^@K^^@h^^@a^^@n^^@2^^@0^^@2^^@0^^@,^^@
+                                                  8^^@8^^@6^^@2^^@6^^@8^^@6^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+conteudo/2-objetivos.tex:17: Text line contains an invalid character.
+l.17 ...^@K^^@h^^@a^^@n^^@2^^@0^^@2^^@0^^@,^^@8^^@
+                                                  8^^@6^^@2^^@6^^@8^^@6^^@,^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+conteudo/2-objetivos.tex:17: Text line contains an invalid character.
+l.17 ...^@h^^@a^^@n^^@2^^@0^^@2^^@0^^@,^^@8^^@8^^@
+                                                  6^^@2^^@6^^@8^^@6^^@,^^@c^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+conteudo/2-objetivos.tex:17: Text line contains an invalid character.
+l.17 ...^@a^^@n^^@2^^@0^^@2^^@0^^@,^^@8^^@8^^@6^^@
+                                                  2^^@6^^@8^^@6^^@,^^@c^^@h^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+conteudo/2-objetivos.tex:17: Text line contains an invalid character.
+l.17 ...^@n^^@2^^@0^^@2^^@0^^@,^^@8^^@8^^@6^^@2^^@
+                                                  6^^@8^^@6^^@,^^@c^^@h^^@l^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+conteudo/2-objetivos.tex:17: Text line contains an invalid character.
+l.17 ...^@2^^@0^^@2^^@0^^@,^^@8^^@8^^@6^^@2^^@6^^@
+                                                  8^^@6^^@,^^@c^^@h^^@l^^@a^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+conteudo/2-objetivos.tex:17: Text line contains an invalid character.
+l.17 ...^@0^^@2^^@0^^@,^^@8^^@8^^@6^^@2^^@6^^@8^^@
+                                                  6^^@,^^@c^^@h^^@l^^@a^^@p^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+conteudo/2-objetivos.tex:17: Text line contains an invalid character.
+l.17 ...^@2^^@0^^@,^^@8^^@8^^@6^^@2^^@6^^@8^^@6^^@
+                                                  ,^^@c^^@h^^@l^^@a^^@p^^@2^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+conteudo/2-objetivos.tex:17: Text line contains an invalid character.
+l.17 ...^@0^^@,^^@8^^@8^^@6^^@2^^@6^^@8^^@6^^@,^^@
+                                                  c^^@h^^@l^^@a^^@p^^@2^^@0^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+conteudo/2-objetivos.tex:17: Text line contains an invalid character.
+l.17 ...^@,^^@8^^@8^^@6^^@2^^@6^^@8^^@6^^@,^^@c^^@
+                                                  h^^@l^^@a^^@p^^@2^^@0^^@2^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+conteudo/2-objetivos.tex:17: Text line contains an invalid character.
+l.17 ...^@8^^@8^^@6^^@2^^@6^^@8^^@6^^@,^^@c^^@h^^@
+                                                  l^^@a^^@p^^@2^^@0^^@2^^@1^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+conteudo/2-objetivos.tex:17: Text line contains an invalid character.
+l.17 ...^@8^^@6^^@2^^@6^^@8^^@6^^@,^^@c^^@h^^@l^^@
+                                                  a^^@p^^@2^^@0^^@2^^@1^^@r^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+conteudo/2-objetivos.tex:17: Text line contains an invalid character.
+l.17 ...^@6^^@2^^@6^^@8^^@6^^@,^^@c^^@h^^@l^^@a^^@
+                                                  p^^@2^^@0^^@2^^@1^^@r^^@e^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+conteudo/2-objetivos.tex:17: Text line contains an invalid character.
+l.17 ...^@2^^@6^^@8^^@6^^@,^^@c^^@h^^@l^^@a^^@p^^@
+                                                  2^^@0^^@2^^@1^^@r^^@e^^@v^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+conteudo/2-objetivos.tex:17: Text line contains an invalid character.
+l.17 ...^@6^^@8^^@6^^@,^^@c^^@h^^@l^^@a^^@p^^@2^^@
+                                                  0^^@2^^@1^^@r^^@e^^@v^^@i^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+conteudo/2-objetivos.tex:17: Text line contains an invalid character.
+l.17 ...^@8^^@6^^@,^^@c^^@h^^@l^^@a^^@p^^@2^^@0^^@
+                                                  2^^@1^^@r^^@e^^@v^^@i^^@e^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+conteudo/2-objetivos.tex:17: Text line contains an invalid character.
+l.17 ...^@6^^@,^^@c^^@h^^@l^^@a^^@p^^@2^^@0^^@2^^@
+                                                  1^^@r^^@e^^@v^^@i^^@e^^@w^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+conteudo/2-objetivos.tex:17: Text line contains an invalid character.
+l.17 ...^@,^^@c^^@h^^@l^^@a^^@p^^@2^^@0^^@2^^@1^^@
+                                                  r^^@e^^@v^^@i^^@e^^@w^^@,^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+conteudo/2-objetivos.tex:17: Text line contains an invalid character.
+l.17 ...^@c^^@h^^@l^^@a^^@p^^@2^^@0^^@2^^@1^^@r^^@
+                                                  e^^@v^^@i^^@e^^@w^^@,^^@c^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+conteudo/2-objetivos.tex:17: Text line contains an invalid character.
+l.17 ...^@h^^@l^^@a^^@p^^@2^^@0^^@2^^@1^^@r^^@e^^@
+                                                  v^^@i^^@e^^@w^^@,^^@c^^@h^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+conteudo/2-objetivos.tex:17: Text line contains an invalid character.
+l.17 ...^@l^^@a^^@p^^@2^^@0^^@2^^@1^^@r^^@e^^@v^^@
+                                                  i^^@e^^@w^^@,^^@c^^@h^^@o^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+conteudo/2-objetivos.tex:17: Text line contains an invalid character.
+l.17 ...^@a^^@p^^@2^^@0^^@2^^@1^^@r^^@e^^@v^^@i^^@
+                                                  e^^@w^^@,^^@c^^@h^^@o^^@l^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+conteudo/2-objetivos.tex:17: Text line contains an invalid character.
+l.17 ...^@p^^@2^^@0^^@2^^@1^^@r^^@e^^@v^^@i^^@e^^@
+                                                  w^^@,^^@c^^@h^^@o^^@l^^@l^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+conteudo/2-objetivos.tex:17: Text line contains an invalid character.
+l.17 ...^@2^^@0^^@2^^@1^^@r^^@e^^@v^^@i^^@e^^@w^^@
+                                                  ,^^@c^^@h^^@o^^@l^^@l^^@e^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+conteudo/2-objetivos.tex:17: Text line contains an invalid character.
+l.17 ...^@0^^@2^^@1^^@r^^@e^^@v^^@i^^@e^^@w^^@,^^@
+                                                  c^^@h^^@o^^@l^^@l^^@e^^@t^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+conteudo/2-objetivos.tex:17: Text line contains an invalid character.
+l.17 ...^@2^^@1^^@r^^@e^^@v^^@i^^@e^^@w^^@,^^@c^^@
+                                                  h^^@o^^@l^^@l^^@e^^@t^^@2^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+conteudo/2-objetivos.tex:17: Text line contains an invalid character.
+l.17 ...^@1^^@r^^@e^^@v^^@i^^@e^^@w^^@,^^@c^^@h^^@
+                                                  o^^@l^^@l^^@e^^@t^^@2^^@0^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+conteudo/2-objetivos.tex:17: Text line contains an invalid character.
+l.17 ...^@r^^@e^^@v^^@i^^@e^^@w^^@,^^@c^^@h^^@o^^@
+                                                  l^^@l^^@e^^@t^^@2^^@0^^@1^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+conteudo/2-objetivos.tex:17: Text line contains an invalid character.
+l.17 ...^@e^^@v^^@i^^@e^^@w^^@,^^@c^^@h^^@o^^@l^^@
+                                                  l^^@e^^@t^^@2^^@0^^@1^^@5^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+conteudo/2-objetivos.tex:17: Text line contains an invalid character.
+l.17 ...^@v^^@i^^@e^^@w^^@,^^@c^^@h^^@o^^@l^^@l^^@
+                                                  e^^@t^^@2^^@0^^@1^^@5^^@k^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+conteudo/2-objetivos.tex:17: Text line contains an invalid character.
+l.17 ...^@i^^@e^^@w^^@,^^@c^^@h^^@o^^@l^^@l^^@e^^@
+                                                  t^^@2^^@0^^@1^^@5^^@k^^@e^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+conteudo/2-objetivos.tex:17: Text line contains an invalid character.
+l.17 ...^@e^^@w^^@,^^@c^^@h^^@o^^@l^^@l^^@e^^@t^^@
+                                                  2^^@0^^@1^^@5^^@k^^@e^^@r^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+conteudo/2-objetivos.tex:17: Text line contains an invalid character.
+l.17 ...^@w^^@,^^@c^^@h^^@o^^@l^^@l^^@e^^@t^^@2^^@
+                                                  0^^@1^^@5^^@k^^@e^^@r^^@a^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+conteudo/2-objetivos.tex:17: Text line contains an invalid character.
+l.17 ...^@,^^@c^^@h^^@o^^@l^^@l^^@e^^@t^^@2^^@0^^@
+                                                  1^^@5^^@k^^@e^^@r^^@a^^@s^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+conteudo/2-objetivos.tex:17: Text line contains an invalid character.
+l.17 ...^@c^^@h^^@o^^@l^^@l^^@e^^@t^^@2^^@0^^@1^^@
+                                                  5^^@k^^@e^^@r^^@a^^@s^^@}^^@
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+conteudo/2-objetivos.tex:17: Text line contains an invalid character.
+l.17 ...^@h^^@o^^@l^^@l^^@e^^@t^^@2^^@0^^@1^^@5^^@
+                                                  k^^@e^^@r^^@a^^@s^^@}^^@
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+conteudo/2-objetivos.tex:17: Text line contains an invalid character.
+l.17 ...^@o^^@l^^@l^^@e^^@t^^@2^^@0^^@1^^@5^^@k^^@
+                                                  e^^@r^^@a^^@s^^@}^^@
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+conteudo/2-objetivos.tex:17: Text line contains an invalid character.
+l.17 ...^@l^^@l^^@e^^@t^^@2^^@0^^@1^^@5^^@k^^@e^^@
+                                                  r^^@a^^@s^^@}^^@
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+conteudo/2-objetivos.tex:17: Text line contains an invalid character.
+l.17 ...^@l^^@e^^@t^^@2^^@0^^@1^^@5^^@k^^@e^^@r^^@
+                                                  a^^@s^^@}^^@
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+conteudo/2-objetivos.tex:17: Text line contains an invalid character.
+l.17 ...^@e^^@t^^@2^^@0^^@1^^@5^^@k^^@e^^@r^^@a^^@
+                                                  s^^@}^^@
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+conteudo/2-objetivos.tex:17: Text line contains an invalid character.
+l.17 ...^@t^^@2^^@0^^@1^^@5^^@k^^@e^^@r^^@a^^@s^^@
+                                                  }^^@
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+conteudo/2-objetivos.tex:17: Text line contains an invalid character.
+l.17 ...^@2^^@0^^@1^^@5^^@k^^@e^^@r^^@a^^@s^^@}^^@
+                                                  
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+conteudo/2-objetivos.tex:18: Text line contains an invalid character.
+l.18 ^^@
+        
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+conteudo/2-objetivos.tex:19: Text line contains an invalid character.
+l.19 ^^@
+        \^^@b^^@e^^@g^^@i^^@n^^@{^^@i^^@t^^@e^^@m^^@i^^@z^^@e^^@}^^@
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+conteudo/2-objetivos.tex:19: Undefined control sequence.
+l.19 ^^@\^^@
+            b^^@e^^@g^^@i^^@n^^@{^^@i^^@t^^@e^^@m^^@i^^@z^^@e^^@}^^@
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+conteudo/2-objetivos.tex:19: Text line contains an invalid character.
+l.19 ^^@\^^@b^^@
+                e^^@g^^@i^^@n^^@{^^@i^^@t^^@e^^@m^^@i^^@z^^@e^^@}^^@
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+conteudo/2-objetivos.tex:19: Text line contains an invalid character.
+l.19 ^^@\^^@b^^@e^^@
+                    g^^@i^^@n^^@{^^@i^^@t^^@e^^@m^^@i^^@z^^@e^^@}^^@
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+conteudo/2-objetivos.tex:19: Text line contains an invalid character.
+l.19 ^^@\^^@b^^@e^^@g^^@
+                        i^^@n^^@{^^@i^^@t^^@e^^@m^^@i^^@z^^@e^^@}^^@
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+conteudo/2-objetivos.tex:19: Text line contains an invalid character.
+l.19 ^^@\^^@b^^@e^^@g^^@i^^@
+                            n^^@{^^@i^^@t^^@e^^@m^^@i^^@z^^@e^^@}^^@
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+conteudo/2-objetivos.tex:19: Text line contains an invalid character.
+l.19 ^^@\^^@b^^@e^^@g^^@i^^@n^^@
+                                {^^@i^^@t^^@e^^@m^^@i^^@z^^@e^^@}^^@
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+conteudo/2-objetivos.tex:19: Text line contains an invalid character.
+l.19 ^^@\^^@b^^@e^^@g^^@i^^@n^^@{^^@
+                                    i^^@t^^@e^^@m^^@i^^@z^^@e^^@}^^@
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+conteudo/2-objetivos.tex:19: Text line contains an invalid character.
+l.19 ^^@\^^@b^^@e^^@g^^@i^^@n^^@{^^@i^^@
+                                        t^^@e^^@m^^@i^^@z^^@e^^@}^^@
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+conteudo/2-objetivos.tex:19: Text line contains an invalid character.
+l.19 ^^@\^^@b^^@e^^@g^^@i^^@n^^@{^^@i^^@t^^@
+                                            e^^@m^^@i^^@z^^@e^^@}^^@
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+conteudo/2-objetivos.tex:19: Text line contains an invalid character.
+l.19 ^^@\^^@b^^@e^^@g^^@i^^@n^^@{^^@i^^@t^^@e^^@
+                                                m^^@i^^@z^^@e^^@}^^@
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+conteudo/2-objetivos.tex:19: Text line contains an invalid character.
+l.19 ...^@b^^@e^^@g^^@i^^@n^^@{^^@i^^@t^^@e^^@m^^@
+                                                  i^^@z^^@e^^@}^^@
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+conteudo/2-objetivos.tex:19: Text line contains an invalid character.
+l.19 ...^@e^^@g^^@i^^@n^^@{^^@i^^@t^^@e^^@m^^@i^^@
+                                                  z^^@e^^@}^^@
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+conteudo/2-objetivos.tex:19: Text line contains an invalid character.
+l.19 ...^@g^^@i^^@n^^@{^^@i^^@t^^@e^^@m^^@i^^@z^^@
+                                                  e^^@}^^@
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+conteudo/2-objetivos.tex:19: Text line contains an invalid character.
+l.19 ...^@i^^@n^^@{^^@i^^@t^^@e^^@m^^@i^^@z^^@e^^@
+                                                  }^^@
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+conteudo/2-objetivos.tex:19: Text line contains an invalid character.
+l.19 ...^@n^^@{^^@i^^@t^^@e^^@m^^@i^^@z^^@e^^@}^^@
+                                                  
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+conteudo/2-objetivos.tex:20: Text line contains an invalid character.
+l.20 ^^@
+        
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+conteudo/2-objetivos.tex:21: Text line contains an invalid character.
+l.21 ^^@
+         ^^@ ^^@ ^^@ ^^@\^^@i^^@t^^@e^^@m^^@ ^^@A^^@n^^@a^^@l^^@i^^@s^^@a^^@...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+conteudo/2-objetivos.tex:21: Text line contains an invalid character.
+l.21 ^^@ ^^@
+             ^^@ ^^@ ^^@\^^@i^^@t^^@e^^@m^^@ ^^@A^^@n^^@a^^@l^^@i^^@s^^@a^^@...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+conteudo/2-objetivos.tex:21: Text line contains an invalid character.
+l.21 ^^@ ^^@ ^^@
+                 ^^@ ^^@\^^@i^^@t^^@e^^@m^^@ ^^@A^^@n^^@a^^@l^^@i^^@s^^@a^^@...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+conteudo/2-objetivos.tex:21: Text line contains an invalid character.
+l.21 ^^@ ^^@ ^^@ ^^@
+                     ^^@\^^@i^^@t^^@e^^@m^^@ ^^@A^^@n^^@a^^@l^^@i^^@s^^@a^^@...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+conteudo/2-objetivos.tex:21: Text line contains an invalid character.
+l.21 ^^@ ^^@ ^^@ ^^@ ^^@
+                        \^^@i^^@t^^@e^^@m^^@ ^^@A^^@n^^@a^^@l^^@i^^@s^^@a^^@...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+conteudo/2-objetivos.tex:21: Undefined control sequence.
+l.21 ^^@ ^^@ ^^@ ^^@ ^^@\^^@
+                            i^^@t^^@e^^@m^^@ ^^@A^^@n^^@a^^@l^^@i^^@s^^@a^^@...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+conteudo/2-objetivos.tex:21: Text line contains an invalid character.
+l.21 ^^@ ^^@ ^^@ ^^@ ^^@\^^@i^^@
+                                t^^@e^^@m^^@ ^^@A^^@n^^@a^^@l^^@i^^@s^^@a^^@...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+conteudo/2-objetivos.tex:21: Text line contains an invalid character.
+l.21 ^^@ ^^@ ^^@ ^^@ ^^@\^^@i^^@t^^@
+                                    e^^@m^^@ ^^@A^^@n^^@a^^@l^^@i^^@s^^@a^^@...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+conteudo/2-objetivos.tex:21: Text line contains an invalid character.
+l.21 ^^@ ^^@ ^^@ ^^@ ^^@\^^@i^^@t^^@e^^@
+                                        m^^@ ^^@A^^@n^^@a^^@l^^@i^^@s^^@a^^@...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+conteudo/2-objetivos.tex:21: Text line contains an invalid character.
+l.21 ^^@ ^^@ ^^@ ^^@ ^^@\^^@i^^@t^^@e^^@m^^@
+                                             ^^@A^^@n^^@a^^@l^^@i^^@s^^@a^^@...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+conteudo/2-objetivos.tex:21: Text line contains an invalid character.
+l.21 ^^@ ^^@ ^^@ ^^@ ^^@\^^@i^^@t^^@e^^@m^^@ ^^@
+                                                A^^@n^^@a^^@l^^@i^^@s^^@a^^@...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+conteudo/2-objetivos.tex:21: Text line contains an invalid character.
+l.21 ...^@ ^^@ ^^@ ^^@\^^@i^^@t^^@e^^@m^^@ ^^@A^^@
+                                                  n^^@a^^@l^^@i^^@s^^@a^^@r^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+conteudo/2-objetivos.tex:21: Text line contains an invalid character.
+l.21 ...^@ ^^@ ^^@\^^@i^^@t^^@e^^@m^^@ ^^@A^^@n^^@
+                                                  a^^@l^^@i^^@s^^@a^^@r^^@ ^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+conteudo/2-objetivos.tex:21: Text line contains an invalid character.
+l.21 ...^@ ^^@\^^@i^^@t^^@e^^@m^^@ ^^@A^^@n^^@a^^@
+                                                  l^^@i^^@s^^@a^^@r^^@ ^^@d^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+conteudo/2-objetivos.tex:21: Text line contains an invalid character.
+l.21 ...^@\^^@i^^@t^^@e^^@m^^@ ^^@A^^@n^^@a^^@l^^@
+                                                  i^^@s^^@a^^@r^^@ ^^@d^^@i^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+conteudo/2-objetivos.tex:21: Text line contains an invalid character.
+l.21 ...^@i^^@t^^@e^^@m^^@ ^^@A^^@n^^@a^^@l^^@i^^@
+                                                  s^^@a^^@r^^@ ^^@d^^@i^^@v^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+conteudo/2-objetivos.tex:21: Text line contains an invalid character.
+l.21 ...^@t^^@e^^@m^^@ ^^@A^^@n^^@a^^@l^^@i^^@s^^@
+                                                  a^^@r^^@ ^^@d^^@i^^@v^^@e^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+conteudo/2-objetivos.tex:21: Text line contains an invalid character.
+l.21 ...^@e^^@m^^@ ^^@A^^@n^^@a^^@l^^@i^^@s^^@a^^@
+                                                  r^^@ ^^@d^^@i^^@v^^@e^^@r^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+conteudo/2-objetivos.tex:21: Text line contains an invalid character.
+l.21 ...^@m^^@ ^^@A^^@n^^@a^^@l^^@i^^@s^^@a^^@r^^@
+                                                   ^^@d^^@i^^@v^^@e^^@r^^@s^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+conteudo/2-objetivos.tex:21: Text line contains an invalid character.
+l.21 ...^@ ^^@A^^@n^^@a^^@l^^@i^^@s^^@a^^@r^^@ ^^@
+                                                  d^^@i^^@v^^@e^^@r^^@s^^@a^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+conteudo/2-objetivos.tex:21: Text line contains an invalid character.
+l.21 ...^@A^^@n^^@a^^@l^^@i^^@s^^@a^^@r^^@ ^^@d^^@
+                                                  i^^@v^^@e^^@r^^@s^^@a^^@s^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+conteudo/2-objetivos.tex:21: Text line contains an invalid character.
+l.21 ...^@n^^@a^^@l^^@i^^@s^^@a^^@r^^@ ^^@d^^@i^^@
+                                                  v^^@e^^@r^^@s^^@a^^@s^^@ ^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+conteudo/2-objetivos.tex:21: Text line contains an invalid character.
+l.21 ...^@a^^@l^^@i^^@s^^@a^^@r^^@ ^^@d^^@i^^@v^^@
+                                                  e^^@r^^@s^^@a^^@s^^@ ^^@c^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+conteudo/2-objetivos.tex:21: Text line contains an invalid character.
+l.21 ...^@l^^@i^^@s^^@a^^@r^^@ ^^@d^^@i^^@v^^@e^^@
+                                                  r^^@s^^@a^^@s^^@ ^^@c^^@a^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+conteudo/2-objetivos.tex:21: Text line contains an invalid character.
+l.21 ...^@i^^@s^^@a^^@r^^@ ^^@d^^@i^^@v^^@e^^@r^^@
+                                                  s^^@a^^@s^^@ ^^@c^^@a^^@r^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+conteudo/2-objetivos.tex:21: Text line contains an invalid character.
+l.21 ...^@s^^@a^^@r^^@ ^^@d^^@i^^@v^^@e^^@r^^@s^^@
+                                                  a^^@s^^@ ^^@c^^@a^^@r^^@a^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+conteudo/2-objetivos.tex:21: Text line contains an invalid character.
+l.21 ...^@a^^@r^^@ ^^@d^^@i^^@v^^@e^^@r^^@s^^@a^^@
+                                                  s^^@ ^^@c^^@a^^@r^^@a^^@c^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+conteudo/2-objetivos.tex:21: Text line contains an invalid character.
+l.21 ...^@r^^@ ^^@d^^@i^^@v^^@e^^@r^^@s^^@a^^@s^^@
+                                                   ^^@c^^@a^^@r^^@a^^@c^^@t^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+conteudo/2-objetivos.tex:21: Text line contains an invalid character.
+l.21 ...^@ ^^@d^^@i^^@v^^@e^^@r^^@s^^@a^^@s^^@ ^^@
+                                                  c^^@a^^@r^^@a^^@c^^@t^^@e^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+conteudo/2-objetivos.tex:21: Text line contains an invalid character.
+l.21 ...^@d^^@i^^@v^^@e^^@r^^@s^^@a^^@s^^@ ^^@c^^@
+                                                  a^^@r^^@a^^@c^^@t^^@e^^@r^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+conteudo/2-objetivos.tex:21: Text line contains an invalid character.
+l.21 ...^@i^^@v^^@e^^@r^^@s^^@a^^@s^^@ ^^@c^^@a^^@
+                                                  r^^@a^^@c^^@t^^@e^^@r^^@í^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+conteudo/2-objetivos.tex:21: Text line contains an invalid character.
+l.21 ...^@v^^@e^^@r^^@s^^@a^^@s^^@ ^^@c^^@a^^@r^^@
+                                                  a^^@c^^@t^^@e^^@r^^@í^^@s^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+conteudo/2-objetivos.tex:21: Text line contains an invalid character.
+l.21 ...^@e^^@r^^@s^^@a^^@s^^@ ^^@c^^@a^^@r^^@a^^@
+                                                  c^^@t^^@e^^@r^^@í^^@s^^@t^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+conteudo/2-objetivos.tex:21: Text line contains an invalid character.
+l.21 ...^@r^^@s^^@a^^@s^^@ ^^@c^^@a^^@r^^@a^^@c^^@
+                                                  t^^@e^^@r^^@í^^@s^^@t^^@i^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+conteudo/2-objetivos.tex:21: Text line contains an invalid character.
+l.21 ...^@s^^@a^^@s^^@ ^^@c^^@a^^@r^^@a^^@c^^@t^^@
+                                                  e^^@r^^@í^^@s^^@t^^@i^^@c^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+conteudo/2-objetivos.tex:21: Text line contains an invalid character.
+l.21 ...^@a^^@s^^@ ^^@c^^@a^^@r^^@a^^@c^^@t^^@e^^@
+                                                  r^^@í^^@s^^@t^^@i^^@c^^@a^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+conteudo/2-objetivos.tex:21: Text line contains an invalid character.
+l.21 ...^@s^^@ ^^@c^^@a^^@r^^@a^^@c^^@t^^@e^^@r^^@
+                                                  í^^@s^^@t^^@i^^@c^^@a^^@s^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+conteudo/2-objetivos.tex:21: Text line contains an invalid character.
+l.21 ...^@ ^^@c^^@a^^@r^^@a^^@c^^@t^^@e^^@r^^@í^^@
+                                                  s^^@t^^@i^^@c^^@a^^@s^^@ ^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+conteudo/2-objetivos.tex:21: Text line contains an invalid character.
+l.21 ...^@c^^@a^^@r^^@a^^@c^^@t^^@e^^@r^^@í^^@s^^@
+                                                  t^^@i^^@c^^@a^^@s^^@ ^^@c^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
 
 
-LaTeX Warning: There were undefined references.
+conteudo/2-objetivos.tex:21: LaTeX Error: Invalid UTF-8 byte sequence (íst).
 
-Package rerunfilecheck Info: File `apresentacao.out' has not changed.
-(rerunfilecheck)             Checksum: C2ED2EFAC435B188336A7FFFBC210CC1;165.
- ) 
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.21 ...@c^^@a^^@r^^@a^^@c^^@t^^@e^^@r^^@í^^@s^^@t
+                                                  ^^@i^^@c^^@a^^@s^^@ ^^@c^^...
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+conteudo/2-objetivos.tex:21: Text line contains an invalid character.
+l.21 ...^@a^^@r^^@a^^@c^^@t^^@e^^@r^^@í^^@s^^@t^^@
+                                                  i^^@c^^@a^^@s^^@ ^^@c^^@o^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+conteudo/2-objetivos.tex:21: Text line contains an invalid character.
+l.21 ...^@r^^@a^^@c^^@t^^@e^^@r^^@í^^@s^^@t^^@i^^@
+                                                  c^^@a^^@s^^@ ^^@c^^@o^^@m^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+conteudo/2-objetivos.tex:21: Text line contains an invalid character.
+l.21 ...^@a^^@c^^@t^^@e^^@r^^@í^^@s^^@t^^@i^^@c^^@
+                                                  a^^@s^^@ ^^@c^^@o^^@m^^@o^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+conteudo/2-objetivos.tex:21: Text line contains an invalid character.
+l.21 ...^@c^^@t^^@e^^@r^^@í^^@s^^@t^^@i^^@c^^@a^^@
+                                                  s^^@ ^^@c^^@o^^@m^^@o^^@ ^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+conteudo/2-objetivos.tex:21: Text line contains an invalid character.
+l.21 ...^@t^^@e^^@r^^@í^^@s^^@t^^@i^^@c^^@a^^@s^^@
+                                                   ^^@c^^@o^^@m^^@o^^@ ^^@d^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+conteudo/2-objetivos.tex:21: Text line contains an invalid character.
+l.21 ...^@e^^@r^^@í^^@s^^@t^^@i^^@c^^@a^^@s^^@ ^^@
+                                                  c^^@o^^@m^^@o^^@ ^^@d^^@o^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+conteudo/2-objetivos.tex:21: Text line contains an invalid character.
+l.21 ...^@r^^@í^^@s^^@t^^@i^^@c^^@a^^@s^^@ ^^@c^^@
+                                                  o^^@m^^@o^^@ ^^@d^^@o^^@m^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+conteudo/2-objetivos.tex:21: Text line contains an invalid character.
+l.21 ...^@í^^@s^^@t^^@i^^@c^^@a^^@s^^@ ^^@c^^@o^^@
+                                                  m^^@o^^@ ^^@d^^@o^^@m^^@í^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+conteudo/2-objetivos.tex:21: Text line contains an invalid character.
+l.21 ...^@s^^@t^^@i^^@c^^@a^^@s^^@ ^^@c^^@o^^@m^^@
+                                                  o^^@ ^^@d^^@o^^@m^^@í^^@n^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+conteudo/2-objetivos.tex:21: Text line contains an invalid character.
+l.21 ...^@t^^@i^^@c^^@a^^@s^^@ ^^@c^^@o^^@m^^@o^^@
+                                                   ^^@d^^@o^^@m^^@í^^@n^^@i^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+conteudo/2-objetivos.tex:21: Text line contains an invalid character.
+l.21 ...^@i^^@c^^@a^^@s^^@ ^^@c^^@o^^@m^^@o^^@ ^^@
+                                                  d^^@o^^@m^^@í^^@n^^@i^^@o^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+conteudo/2-objetivos.tex:21: Text line contains an invalid character.
+l.21 ...^@c^^@a^^@s^^@ ^^@c^^@o^^@m^^@o^^@ ^^@d^^@
+                                                  o^^@m^^@í^^@n^^@i^^@o^^@ ^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+conteudo/2-objetivos.tex:21: Text line contains an invalid character.
+l.21 ...^@a^^@s^^@ ^^@c^^@o^^@m^^@o^^@ ^^@d^^@o^^@
+                                                  m^^@í^^@n^^@i^^@o^^@ ^^@d^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+conteudo/2-objetivos.tex:21: Text line contains an invalid character.
+l.21 ...^@s^^@ ^^@c^^@o^^@m^^@o^^@ ^^@d^^@o^^@m^^@
+                                                  í^^@n^^@i^^@o^^@ ^^@d^^@e^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+conteudo/2-objetivos.tex:21: Text line contains an invalid character.
+l.21 ...^@ ^^@c^^@o^^@m^^@o^^@ ^^@d^^@o^^@m^^@í^^@
+                                                  n^^@i^^@o^^@ ^^@d^^@e^^@ ^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+conteudo/2-objetivos.tex:21: Text line contains an invalid character.
+l.21 ...^@c^^@o^^@m^^@o^^@ ^^@d^^@o^^@m^^@í^^@n^^@
+                                                  i^^@o^^@ ^^@d^^@e^^@ ^^@n^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+
+conteudo/2-objetivos.tex:21: LaTeX Error: Invalid UTF-8 byte sequence (íni).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.21 ...@c^^@o^^@m^^@o^^@ ^^@d^^@o^^@m^^@í^^@n^^@i
+                                                  ^^@o^^@ ^^@d^^@e^^@ ^^@n^^...
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+conteudo/2-objetivos.tex:21: Text line contains an invalid character.
+l.21 ...^@o^^@m^^@o^^@ ^^@d^^@o^^@m^^@í^^@n^^@i^^@
+                                                  o^^@ ^^@d^^@e^^@ ^^@n^^@a^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+conteudo/2-objetivos.tex:21: Text line contains an invalid character.
+l.21 ...^@m^^@o^^@ ^^@d^^@o^^@m^^@í^^@n^^@i^^@o^^@
+                                                   ^^@d^^@e^^@ ^^@n^^@a^^@t^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+conteudo/2-objetivos.tex:21: Text line contains an invalid character.
+l.21 ...^@o^^@ ^^@d^^@o^^@m^^@í^^@n^^@i^^@o^^@ ^^@
+                                                  d^^@e^^@ ^^@n^^@a^^@t^^@u^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+conteudo/2-objetivos.tex:21: Text line contains an invalid character.
+l.21 ...^@ ^^@d^^@o^^@m^^@í^^@n^^@i^^@o^^@ ^^@d^^@
+                                                  e^^@ ^^@n^^@a^^@t^^@u^^@r^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+conteudo/2-objetivos.tex:21: Text line contains an invalid character.
+l.21 ...^@d^^@o^^@m^^@í^^@n^^@i^^@o^^@ ^^@d^^@e^^@
+                                                   ^^@n^^@a^^@t^^@u^^@r^^@e^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+conteudo/2-objetivos.tex:21: Text line contains an invalid character.
+l.21 ...^@o^^@m^^@í^^@n^^@i^^@o^^@ ^^@d^^@e^^@ ^^@
+                                                  n^^@a^^@t^^@u^^@r^^@e^^@z^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+conteudo/2-objetivos.tex:21: Text line contains an invalid character.
+l.21 ...^@m^^@í^^@n^^@i^^@o^^@ ^^@d^^@e^^@ ^^@n^^@
+                                                  a^^@t^^@u^^@r^^@e^^@z^^@a^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+conteudo/2-objetivos.tex:21: Text line contains an invalid character.
+l.21 ...^@í^^@n^^@i^^@o^^@ ^^@d^^@e^^@ ^^@n^^@a^^@
+                                                  t^^@u^^@r^^@e^^@z^^@a^^@ ^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+conteudo/2-objetivos.tex:21: Text line contains an invalid character.
+l.21 ...^@n^^@i^^@o^^@ ^^@d^^@e^^@ ^^@n^^@a^^@t^^@
+                                                  u^^@r^^@e^^@z^^@a^^@ ^^@d^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+conteudo/2-objetivos.tex:21: Text line contains an invalid character.
+l.21 ...^@i^^@o^^@ ^^@d^^@e^^@ ^^@n^^@a^^@t^^@u^^@
+                                                  r^^@e^^@z^^@a^^@ ^^@d^^@o^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+conteudo/2-objetivos.tex:21: Text line contains an invalid character.
+l.21 ...^@o^^@ ^^@d^^@e^^@ ^^@n^^@a^^@t^^@u^^@r^^@
+                                                  e^^@z^^@a^^@ ^^@d^^@o^^@ ^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+conteudo/2-objetivos.tex:21: Text line contains an invalid character.
+l.21 ...^@ ^^@d^^@e^^@ ^^@n^^@a^^@t^^@u^^@r^^@e^^@
+                                                  z^^@a^^@ ^^@d^^@o^^@ ^^@\^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+conteudo/2-objetivos.tex:21: Text line contains an invalid character.
+l.21 ...^@d^^@e^^@ ^^@n^^@a^^@t^^@u^^@r^^@e^^@z^^@
+                                                  a^^@ ^^@d^^@o^^@ ^^@\^^@t^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+conteudo/2-objetivos.tex:21: Text line contains an invalid character.
+l.21 ...^@e^^@ ^^@n^^@a^^@t^^@u^^@r^^@e^^@z^^@a^^@
+                                                   ^^@d^^@o^^@ ^^@\^^@t^^@e^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+conteudo/2-objetivos.tex:21: Text line contains an invalid character.
+l.21 ...^@ ^^@n^^@a^^@t^^@u^^@r^^@e^^@z^^@a^^@ ^^@
+                                                  d^^@o^^@ ^^@\^^@t^^@e^^@x^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+conteudo/2-objetivos.tex:21: Text line contains an invalid character.
+l.21 ...^@n^^@a^^@t^^@u^^@r^^@e^^@z^^@a^^@ ^^@d^^@
+                                                  o^^@ ^^@\^^@t^^@e^^@x^^@t^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+conteudo/2-objetivos.tex:21: Text line contains an invalid character.
+l.21 ...^@a^^@t^^@u^^@r^^@e^^@z^^@a^^@ ^^@d^^@o^^@
+                                                   ^^@\^^@t^^@e^^@x^^@t^^@i^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+conteudo/2-objetivos.tex:21: Text line contains an invalid character.
+l.21 ...^@t^^@u^^@r^^@e^^@z^^@a^^@ ^^@d^^@o^^@ ^^@
+                                                  \^^@t^^@e^^@x^^@t^^@i^^@t^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+conteudo/2-objetivos.tex:21: Undefined control sequence.
+l.21 ...^@u^^@r^^@e^^@z^^@a^^@ ^^@d^^@o^^@ ^^@\^^@
+                                                  t^^@e^^@x^^@t^^@i^^@t^^@{^...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+conteudo/2-objetivos.tex:21: Text line contains an invalid character.
+l.21 ...^@r^^@e^^@z^^@a^^@ ^^@d^^@o^^@ ^^@\^^@t^^@
+                                                  e^^@x^^@t^^@i^^@t^^@{^^@d^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+conteudo/2-objetivos.tex:21: Text line contains an invalid character.
+l.21 ...^@e^^@z^^@a^^@ ^^@d^^@o^^@ ^^@\^^@t^^@e^^@
+                                                  x^^@t^^@i^^@t^^@{^^@d^^@a^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+conteudo/2-objetivos.tex:21: Text line contains an invalid character.
+l.21 ...^@z^^@a^^@ ^^@d^^@o^^@ ^^@\^^@t^^@e^^@x^^@
+                                                  t^^@i^^@t^^@{^^@d^^@a^^@t^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+conteudo/2-objetivos.tex:21: Text line contains an invalid character.
+l.21 ...^@a^^@ ^^@d^^@o^^@ ^^@\^^@t^^@e^^@x^^@t^^@
+                                                  i^^@t^^@{^^@d^^@a^^@t^^@a^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+conteudo/2-objetivos.tex:21: Text line contains an invalid character.
+l.21 ...^@ ^^@d^^@o^^@ ^^@\^^@t^^@e^^@x^^@t^^@i^^@
+                                                  t^^@{^^@d^^@a^^@t^^@a^^@s^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+conteudo/2-objetivos.tex:21: Text line contains an invalid character.
+l.21 ...^@d^^@o^^@ ^^@\^^@t^^@e^^@x^^@t^^@i^^@t^^@
+                                                  {^^@d^^@a^^@t^^@a^^@s^^@e^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+conteudo/2-objetivos.tex:21: Text line contains an invalid character.
+l.21 ...^@o^^@ ^^@\^^@t^^@e^^@x^^@t^^@i^^@t^^@{^^@
+                                                  d^^@a^^@t^^@a^^@s^^@e^^@t^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+conteudo/2-objetivos.tex:21: Text line contains an invalid character.
+l.21 ...^@ ^^@\^^@t^^@e^^@x^^@t^^@i^^@t^^@{^^@d^^@
+                                                  a^^@t^^@a^^@s^^@e^^@t^^@}^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+conteudo/2-objetivos.tex:21: Text line contains an invalid character.
+l.21 ...^@\^^@t^^@e^^@x^^@t^^@i^^@t^^@{^^@d^^@a^^@
+                                                  t^^@a^^@s^^@e^^@t^^@}^^@ ^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+conteudo/2-objetivos.tex:21: Text line contains an invalid character.
+l.21 ...^@t^^@e^^@x^^@t^^@i^^@t^^@{^^@d^^@a^^@t^^@
+                                                  a^^@s^^@e^^@t^^@}^^@ ^^@q^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+conteudo/2-objetivos.tex:21: Text line contains an invalid character.
+l.21 ...^@e^^@x^^@t^^@i^^@t^^@{^^@d^^@a^^@t^^@a^^@
+                                                  s^^@e^^@t^^@}^^@ ^^@q^^@u^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+conteudo/2-objetivos.tex:21: Text line contains an invalid character.
+l.21 ...^@x^^@t^^@i^^@t^^@{^^@d^^@a^^@t^^@a^^@s^^@
+                                                  e^^@t^^@}^^@ ^^@q^^@u^^@e^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+conteudo/2-objetivos.tex:21: Text line contains an invalid character.
+l.21 ...^@t^^@i^^@t^^@{^^@d^^@a^^@t^^@a^^@s^^@e^^@
+                                                  t^^@}^^@ ^^@q^^@u^^@e^^@ ^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+conteudo/2-objetivos.tex:21: Text line contains an invalid character.
+l.21 ...^@i^^@t^^@{^^@d^^@a^^@t^^@a^^@s^^@e^^@t^^@
+                                                  }^^@ ^^@q^^@u^^@e^^@ ^^@p^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+conteudo/2-objetivos.tex:21: Text line contains an invalid character.
+l.21 ...^@t^^@{^^@d^^@a^^@t^^@a^^@s^^@e^^@t^^@}^^@
+                                                   ^^@q^^@u^^@e^^@ ^^@p^^@o^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+conteudo/2-objetivos.tex:21: Text line contains an invalid character.
+l.21 ...^@{^^@d^^@a^^@t^^@a^^@s^^@e^^@t^^@}^^@ ^^@
+                                                  q^^@u^^@e^^@ ^^@p^^@o^^@d^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+conteudo/2-objetivos.tex:21: Text line contains an invalid character.
+l.21 ...^@d^^@a^^@t^^@a^^@s^^@e^^@t^^@}^^@ ^^@q^^@
+                                                  u^^@e^^@ ^^@p^^@o^^@d^^@e^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+conteudo/2-objetivos.tex:21: Text line contains an invalid character.
+l.21 ...^@a^^@t^^@a^^@s^^@e^^@t^^@}^^@ ^^@q^^@u^^@
+                                                  e^^@ ^^@p^^@o^^@d^^@e^^@m^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+conteudo/2-objetivos.tex:21: Text line contains an invalid character.
+l.21 ...^@t^^@a^^@s^^@e^^@t^^@}^^@ ^^@q^^@u^^@e^^@
+                                                   ^^@p^^@o^^@d^^@e^^@m^^@ ^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+conteudo/2-objetivos.tex:21: Text line contains an invalid character.
+l.21 ...^@a^^@s^^@e^^@t^^@}^^@ ^^@q^^@u^^@e^^@ ^^@
+                                                  p^^@o^^@d^^@e^^@m^^@ ^^@i^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+conteudo/2-objetivos.tex:21: Text line contains an invalid character.
+l.21 ...^@s^^@e^^@t^^@}^^@ ^^@q^^@u^^@e^^@ ^^@p^^@
+                                                  o^^@d^^@e^^@m^^@ ^^@i^^@m^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+conteudo/2-objetivos.tex:21: Text line contains an invalid character.
+l.21 ...^@e^^@t^^@}^^@ ^^@q^^@u^^@e^^@ ^^@p^^@o^^@
+                                                  d^^@e^^@m^^@ ^^@i^^@m^^@p^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+conteudo/2-objetivos.tex:21: Text line contains an invalid character.
+l.21 ...^@t^^@}^^@ ^^@q^^@u^^@e^^@ ^^@p^^@o^^@d^^@
+                                                  e^^@m^^@ ^^@i^^@m^^@p^^@a^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+conteudo/2-objetivos.tex:21: Text line contains an invalid character.
+l.21 ...^@}^^@ ^^@q^^@u^^@e^^@ ^^@p^^@o^^@d^^@e^^@
+                                                  m^^@ ^^@i^^@m^^@p^^@a^^@c^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+conteudo/2-objetivos.tex:21: Text line contains an invalid character.
+l.21 ...^@ ^^@q^^@u^^@e^^@ ^^@p^^@o^^@d^^@e^^@m^^@
+                                                   ^^@i^^@m^^@p^^@a^^@c^^@t^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+conteudo/2-objetivos.tex:21: Text line contains an invalid character.
+l.21 ...^@q^^@u^^@e^^@ ^^@p^^@o^^@d^^@e^^@m^^@ ^^@
+                                                  i^^@m^^@p^^@a^^@c^^@t^^@a^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+conteudo/2-objetivos.tex:21: Text line contains an invalid character.
+l.21 ...^@u^^@e^^@ ^^@p^^@o^^@d^^@e^^@m^^@ ^^@i^^@
+                                                  m^^@p^^@a^^@c^^@t^^@a^^@r^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+conteudo/2-objetivos.tex:21: Text line contains an invalid character.
+l.21 ...^@e^^@ ^^@p^^@o^^@d^^@e^^@m^^@ ^^@i^^@m^^@
+                                                  p^^@a^^@c^^@t^^@a^^@r^^@ ^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+conteudo/2-objetivos.tex:21: Text line contains an invalid character.
+l.21 ...^@ ^^@p^^@o^^@d^^@e^^@m^^@ ^^@i^^@m^^@p^^@
+                                                  a^^@c^^@t^^@a^^@r^^@ ^^@o^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+conteudo/2-objetivos.tex:21: Text line contains an invalid character.
+l.21 ...^@p^^@o^^@d^^@e^^@m^^@ ^^@i^^@m^^@p^^@a^^@
+                                                  c^^@t^^@a^^@r^^@ ^^@o^^@ ^...
+(That makes 100 errors; please try again.) 
 Here is how much of TeX's memory you used:
- 22089 strings out of 468079
- 440194 string characters out of 5425266
- 805054 words of memory out of 5000000
- 50224 multiletter control sequences out of 15000+600000
+ 21941 strings out of 468079
+ 432224 string characters out of 5425266
+ 803122 words of memory out of 5000000
+ 50128 multiletter control sequences out of 15000+600000
  635782 words of font info for 68 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 128i,20n,123p,656b,614s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Users/Miguel/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmss10.pfb><C:/Users/Miguel/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmss12.pfb><C:/Users/Miguel/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmss8.pfb><C:/Users/Miguel/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><C:/Users/Miguel/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmssi10.pfb>
-Output written on apresentacao.pdf (10 pages, 127445 bytes).
-PDF statistics:
- 365 PDF objects out of 1000 (max. 8388607)
- 22 named destinations out of 1000 (max. 500000)
- 129 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 128i,20n,123p,1069b,595s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
+conteudo/2-objetivos.tex:21:  ==> Fatal error occurred, no output PDF file produced!
