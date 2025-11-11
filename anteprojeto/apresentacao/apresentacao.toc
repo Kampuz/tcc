@@ -1,0 +1,7 @@
+\babel@toc {portuguese}{}\relax 
+\beamer@sectionintoc {1}{Formulação do problema}{3}{0}{1}
+\beamer@sectionintoc {2}{Objetivos do projeto}{7}{0}{2}
+\beamer@sectionintoc {3}{Justificativa do projeto}{8}{0}{3}
+\beamer@sectionintoc {4}{Metodologia e plano de trabalho}{10}{0}{4}
+\beamer@sectionintoc {5}{Equipamento e material}{15}{0}{5}
+\beamer@sectionintoc {6}{Cronograma de execução}{16}{0}{6}
