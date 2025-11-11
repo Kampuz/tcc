@@ -15,15 +15,6 @@
 \end{frame}
 
 \begin{frame}{Metodologia e plano de trabalho}
-    Será usado: 
-    \begin{itemize}
-        \item Datasets de imagens de trilhos ferroviários, contendo imagens com e sem defeitos.
-        \item Python e bibliotecas como: Pytorch, Tensorflow, Numpy, entre outras.
-    \end{itemize}
-\end{frame}
-
-\begin{frame}{Metodologia e plano de trabalho}
-    O que será feito?
     \begin{itemize}
         \item Coleta e organização dos datasets ferroviários.
         \item Pré-processamento das imagens (normalização, balanceamento, aumento de dados).
@@ -32,4 +23,31 @@
         \item Avaliação de desempenho com métricas adequadas (F1, AUC, etc.).
         \item Comparação com resultados da literatura.
     \end{itemize}
+\end{frame}
+
+\begin{frame}{Formulação do problema}
+    Exemplo de trilho sem pino
+    \begin{figure}
+        \centering
+        \includegraphics[width=0.5\linewidth]{images/pino.jpg}
+    \end{figure}
+    Fonte: https://www.kaggle.com/datasets/gpiosenka/railway-track-fault-detection-resized-224-x-224/data?select=test
+\end{frame}
+
+\begin{frame}{Formulação do problema}
+    Exemplo de trilho quebrado
+    \begin{figure}
+        \centering
+        \includegraphics[width=0.5\linewidth]{images/quebrado.jpg}
+    \end{figure}
+    Fonte: https://www.kaggle.com/datasets/gpiosenka/railway-track-fault-detection-resized-224-x-224/data?select=test
+\end{frame} 
+
+\begin{frame}{Formulação do problema}
+    Exemplo de trilho sem suporte
+    \begin{figure}
+        \centering
+        \includegraphics[width=0.5\linewidth]{images/sem trilhos.jpg}
+    \end{figure}
+    Fonte: https://www.kaggle.com/datasets/gpiosenka/railway-track-fault-detection-resized-224-x-224/data?select=test
 \end{frame}
