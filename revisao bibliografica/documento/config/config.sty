@@ -136,7 +136,9 @@
 \usepackage{csquotes}
 
 % Sistema de bibliografia moderno com estilo ABNT
-\usepackage[style=abnt]{biblatex}
+\usepackage[
+    backend=biber,
+    style=abnt]{biblatex}
 
 % Define o arquivo de referências bibliográficas
 \addbibresource{referencias.bib}
@@ -237,3 +239,7 @@
     \hrule width 5cm    % Linha horizontal de 5cm
     \kern 2pt           % Espaçamento abaixo da linha
 }
+
+
+
+\setlength{\headheight}{15pt}
