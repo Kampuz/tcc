@@ -1,8 +1,12 @@
 \babel@toc {brazilian}{}\relax 
 \contentsline {section}{\numberline {1}Introdução}{10}{section.1}%
-\contentsline {section}{\numberline {2}Introdução}{11}{section.2}%
-\contentsline {section}{\numberline {3}Objetivos}{12}{section.3}%
-\contentsline {subsection}{\numberline {3.1}Objetivos principais}{12}{subsection.3.1}%
-\contentsline {subsection}{\numberline {3.2}Objetivos especificos}{12}{subsection.3.2}%
-\contentsline {section}{\numberline {4}Metodologia}{12}{section.4}%
-\contentsline {section}{\numberline {5}Referências}{12}{section.5}%
+\contentsline {subsection}{\numberline {1.1}Justificativa}{10}{subsection.1.1}%
+\contentsline {subsection}{\numberline {1.2}Objetivos}{10}{subsection.1.2}%
+\contentsline {subsubsection}{\numberline {1.2.1}Objetivos Gerais}{10}{subsubsection.1.2.1}%
+\contentsline {subsubsection}{\numberline {1.2.2}Objetivos Específicos}{10}{subsubsection.1.2.2}%
+\contentsline {section}{\numberline {2}Trabalhos Relacionados}{10}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Relação entre trabalhos}{10}{subsection.2.1}%
+\contentsline {section}{\numberline {3}Metodologia}{10}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Avaliação dos Resultados}{10}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Resultados Esperados}{10}{subsection.3.2}%
+\contentsline {section}{\numberline {4}Referências}{10}{section.4}%

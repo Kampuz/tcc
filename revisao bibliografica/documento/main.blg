@@ -1,18 +1,9 @@
 [0] Config.pm:328> INFO - This is Biber 2.21
 [0] Config.pm:331> INFO - Logfile is 'main.blg'
-[42] biber:342> INFO - === Wed Nov 19, 2025, 16:12:34
-[52] Biber.pm:421> INFO - Reading 'main.bcf'
-[102] Biber.pm:1002> INFO - Found 3 citekeys in bib section 0
-[113] Biber.pm:4487> INFO - Processing section 0
-[119] Biber.pm:4678> INFO - Looking for bibtex file 'referencias.bib' for section 0
-[120] bibtex.pm:1713> INFO - LaTeX decoding ...
-[123] bibtex.pm:1519> INFO - Found BibTeX data source 'referencias.bib'
-[156] UCollate.pm:68> INFO - Overriding locale 'pt-BR' defaults 'variable = shifted' with 'variable = non-ignorable'
-[156] UCollate.pm:68> INFO - Overriding locale 'pt-BR' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[156] Biber.pm:4307> INFO - Sorting list 'nty/global//global/global/global' of type 'entry' with template 'nty' and locale 'pt-BR'
-[156] Biber.pm:4313> INFO - No sort tailoring available for locale 'pt-BR'
-[158] bbl.pm:676> INFO - Writing 'main.bbl' with encoding 'UTF-8'
-[159] bbl.pm:779> INFO - Output to main.bbl
-[159] Biber.pm:132> WARN - legacy month field 'July' in entry 'smith2020example' is not an integer - this will probably not sort properly.
-[159] Biber.pm:132> WARN - legacy month field 'August' in entry 'miller2019example' is not an integer - this will probably not sort properly.
-[159] Biber.pm:134> INFO - WARNINGS: 2
+[48] biber:342> INFO - === Wed Nov 19, 2025, 16:58:32
+[59] Biber.pm:421> INFO - Reading 'main.bcf'
+[113] Biber.pm:1002> INFO - Found 0 citekeys in bib section 0
+[124] bbl.pm:676> INFO - Writing 'main.bbl' with encoding 'UTF-8'
+[124] bbl.pm:779> INFO - Output to main.bbl
+[125] Biber.pm:132> WARN - The file 'main.bcf' does not contain any citations!
+[125] Biber.pm:134> INFO - WARNINGS: 1
