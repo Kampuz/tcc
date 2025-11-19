@@ -1,0 +1,55 @@
+\documentclass[12pt,nodisplayskipstretch]{article}
+
+\usepackage{config/commands}
+
+\usepackage{config/config}
+
+\begin{document}
+
+
+% ---------------------------- %
+% SEÇÕES PRÉ-TEXTUAIS
+% ---------------------------- %
+
+% Importa o arquivo da capa
+\import{sections/pre-textual/}{0-capa.tex}
+
+% Importa a folha de rosto
+\import{sections/pre-textual/}{0-folha-de-rosto.tex}
+
+% Importa a folha de aprovação
+\import{sections/pre-textual/}{1-folha-de-aprovacao.tex}
+
+% Importa o resumo em português
+\import{sections/pre-textual/}{2-resumo.tex}
+
+% Importa o resumo em inglês (abstract)
+\import{sections/pre-textual/}{3-resumo-ingles.tex}
+
+% Importa listas (ex: lista de figuras, tabelas, siglas)
+\import{sections/pre-textual/}{4-listas.tex}
+
+% Importa o sumário
+\import{sections/pre-textual/}{5-sumario.tex}
+
+
+% ---------------------------- %
+% SEÇÕES TEXTUAIS
+% ---------------------------- %
+
+% Importa a introdução
+\import{sections/textual/}{1-introducao.tex}
+
+% Importa a justificativa
+\import{sections/textual/}{2-justificativa.tex}
+
+% Importa os objetivos
+\import{sections/textual/}{3-objetivos.tex}
+
+% Importa a metodologia
+\import{sections/textual/}{4-metodologia.tex}
+
+% Importa a seção de referências bibliográficas
+\import{sections/textual/}{5-referencias.tex}
+
+\end{document}
