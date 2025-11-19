@@ -1,11 +1,11 @@
 # Fdb version 4
-["biber main"] 1763582312.14104 "main.bcf" "main.bbl" "main" 1763582459.84209 0
-  "main.bcf" 1763582459.77826 114087 4743409daeef4b5257153f7fa67578ad "pdflatex"
+["biber main"] 1763582312.14104 "main.bcf" "main.bbl" "main" 1763583617.35809 0
+  "main.bcf" 1763583617.29836 114087 4743409daeef4b5257153f7fa67578ad "pdflatex"
   (generated)
   "main.bbl"
   "main.blg"
   (rewritten before read)
-["pdflatex"] 1763582458.46689 "/home/campinho/Armazem/Faculdade/sexto/Projeto Cientifico I/tcc/revisao bibliografica/documento/main.tex" "main.pdf" "main" 1763582459.84244 0
+["pdflatex"] 1763583615.99735 "/home/campinho/Armazem/Faculdade/sexto/Projeto Cientifico I/tcc/revisao bibliografica/documento/main.tex" "main.pdf" "main" 1763583617.35836 0
   "/home/campinho/Armazem/Faculdade/sexto/Projeto Cientifico I/tcc/revisao bibliografica/documento/main.tex" 1763582084.70923 1236 758917e5ecc7c999de4aa83b53c76867 ""
   "/usr/share/texmf-dist/fonts/enc/dvips/base/8r.enc" 1755987285 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/share/texmf-dist/fonts/map/fontname/texfonts.map" 1755987285 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -155,16 +155,16 @@
   "config/commands.sty" 1763579882.58704 1562 b84e5403c0e44c0472893b3a3f38ccb9 ""
   "config/config.sty" 1763579683.50703 8536 2e42ce074857d0c35f98c8d583b2c24d ""
   "images/unesp.png" 1763577274.72389 55805 c8153abe93b26f7a8b3fa46eef53f1c2 ""
-  "main.aux" 1763582459.77326 1855 5638a02ebc8df84aa3c7111945d1c51d "pdflatex"
+  "main.aux" 1763583617.29136 1581 76f5434cb5b43927874d0ae431357f4f "pdflatex"
   "main.bbl" 1763582312.72012 466 76d65a242ec496c9b4361af646ff12cb "biber main"
-  "main.lof" 1763582459.77972 32 41d53b1d35d9b919d66c44476a3de600 "pdflatex"
-  "main.lol" 1763582459.77972 97 e8d326b13605a4d9121d09ccf667c198 "pdflatex"
-  "main.lot" 1763582459.77972 32 41d53b1d35d9b919d66c44476a3de600 "pdflatex"
+  "main.lof" 1763583617.30056 32 41d53b1d35d9b919d66c44476a3de600 "pdflatex"
+  "main.lol" 1763583617.30056 97 e8d326b13605a4d9121d09ccf667c198 "pdflatex"
+  "main.lot" 1763583617.30056 32 41d53b1d35d9b919d66c44476a3de600 "pdflatex"
   "main.nls" 0 -1 0 ""
-  "main.out" 1763582459.77526 1541 c08bcc6422e477d199c1b319da03c9a4 "pdflatex"
-  "main.run.xml" 1763582459.77972 2511 089319a5a32e9d53c6687dcdfef3561b "pdflatex"
+  "main.out" 1763583617.29436 1211 83ffe37416fc38e468ec570dce151dc8 "pdflatex"
+  "main.run.xml" 1763583617.30056 2511 089319a5a32e9d53c6687dcdfef3561b "pdflatex"
   "main.tex" 1763582084.70923 1236 758917e5ecc7c999de4aa83b53c76867 ""
-  "main.toc" 1763582459.77972 937 ead816576b2f80764f6cc5c34ecb8411 "pdflatex"
+  "main.toc" 1763583617.30056 745 13ca01a26e2e256d4dee581946d33c08 "pdflatex"
   "sections/pre-textual/0-capa.tex" 1763577183.7491 1074 f05e7095c7eab5ff5c7249946beca017 ""
   "sections/pre-textual/0-folha-de-rosto.tex" 1763578036.32664 548 5c071a4a6d28048e40a3c4de994794c0 ""
   "sections/pre-textual/1-folha-de-aprovacao.tex" 1763578141.22018 741 7b0ed4c26573344efbda6f205ffb16c1 ""
@@ -172,9 +172,9 @@
   "sections/pre-textual/3-resumo-ingles.tex" 1763578266.52119 778 106aab1105de154ae36be04ecfb3b606 ""
   "sections/pre-textual/4-listas.tex" 1763578326.32119 475 70826d4eee7c6e35fef631e92cb21086 ""
   "sections/pre-textual/5-sumario.tex" 1763578374.5362 56 60f91d4da79d70b5da911de80a95b1cb ""
-  "sections/textual/1-introducao.tex" 1763582310.29625 148 e27a5c823bc0eaf59e65a46b210e6fa0 ""
+  "sections/textual/1-introducao.tex" 1763583605.01336 74 d1d4b8823fe7e53849e3c62bf3ccf0fd ""
   "sections/textual/2-trabalhos-relacionados.tex" 1763582180.17124 87 0788fadb4f3ca35cf909c11da0f0485e ""
-  "sections/textual/3-metodologia.tex" 1763582458.14702 97 9fe787b5f88af975b600ccafd2a15801 ""
+  "sections/textual/3-metodologia.tex" 1763583614.40636 99 b7732d9a80220a1312772443b4727a51 ""
   "sections/textual/4-referencias.tex" 1763578524.87621 56 a586cbafd975acfae050bec695bbc9b4 ""
   (generated)
   "main.aux"

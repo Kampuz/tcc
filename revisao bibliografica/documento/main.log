@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2026/dev/Arch Linux) (preloaded format=pdflatex 2025.11.19)  19 NOV 2025 17:00
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2026/dev/Arch Linux) (preloaded format=pdflatex 2025.11.19)  19 NOV 2025 17:20
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -890,7 +890,7 @@ Package biblatex Info: Reference segment=0 on input line 7.
 \c@lstlisting=\count450
 Package tocbasic Info: setting babel extension for `lol' on input line 7.
  (./sections/pre-textual/0-capa.tex
-<images/unesp.png, id=48, 3011.25pt x 1003.75pt>
+<images/unesp.png, id=40, 3011.25pt x 1003.75pt>
 File: images/unesp.png Graphic file (type png)
 <use images/unesp.png>
 Package pdftex.def Info: images/unesp.png  used on input line 8.
@@ -976,24 +976,24 @@ LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2020/03/25>
  ***********
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: C08BCC6422E477D199C1B319DA03C9A4;1541.
+(rerunfilecheck)             Checksum: 83FFE37416FC38E468EC570DCE151DC8;1211.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 25017 strings out of 475151
- 443787 string characters out of 5766385
- 1469641 words of memory out of 5000000
- 47574 multiletter control sequences out of 15000+600000
+ 25013 strings out of 475151
+ 443707 string characters out of 5766385
+ 1469638 words of memory out of 5000000
+ 47572 multiletter control sequences out of 15000+600000
  580547 words of font info for 65 fonts, out of 8000000 for 9000
  16 hyphenation exceptions out of 8191
  125i,11n,121p,1295b,4096s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texmf-dist/fonts/type1/urw/times/utmr8a.pfb>
-Output written on main.pdf (10 pages, 96362 bytes).
+Output written on main.pdf (10 pages, 95638 bytes).
 PDF statistics:
- 132 PDF objects out of 1000 (max. 8388607)
- 112 compressed objects within 2 object streams
- 27 named destinations out of 1000 (max. 500000)
- 94 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 122 PDF objects out of 1000 (max. 8388607)
+ 102 compressed objects within 2 object streams
+ 25 named destinations out of 1000 (max. 500000)
+ 78 words of extra memory for PDF output out of 10000 (max. 10000000)
 
