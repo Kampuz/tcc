@@ -20,24 +20,6 @@ O conjunto de \textcite{gpiosenka_railway_2022} contém 384 imagens de trilhos d
 Enquanto que o conjunto de \textcite{ashikadnan_railway_2021} contém 1399 imagens de pinos de fixação divididas entre 980 imagens de treinamento, 140 imagens de teste 280 imagens de validação
 
 \begin{figure}[H]
-    \caption{Conjunto de imagens do segundo dataset}
-    \centering
-    \begin{subfigure}[b]{0.45\linewidth}
-        \centering
-        \includegraphics[width=0.8\linewidth]{images/dataset/2defeituoso.jpg}
-        \caption{Defeituoso}
-        \label{fig:img1 dataset2}
-    \end{subfigure}
-    \hfill
-    \begin{subfigure}[b]{0.45\linewidth}
-        \centering
-        \includegraphics[width=0.8\linewidth]{images/dataset/2ok.jpg}
-        \caption{Sem defeito}
-        \label{fig:img2 dataset2}
-    \end{subfigure}
-\end{figure}
-
-\begin{figure}[H]
     \caption{Conjunto de imagens do dataset em grade 2x2}
     \centering
     \begin{subfigure}[b]{0.45\linewidth}
@@ -53,9 +35,9 @@ Enquanto que o conjunto de \textcite{ashikadnan_railway_2021} contém 1399 image
         \caption{Defeituoso (ausência de pino superior)}
         \label{fig:img2}
     \end{subfigure}
-
+    
     \vspace{0.25cm}
-
+    
     \begin{subfigure}[b]{0.45\linewidth}
         \centering
         \includegraphics[width=0.8\linewidth]{images/dataset/fundacao.jpeg}
@@ -69,9 +51,29 @@ Enquanto que o conjunto de \textcite{ashikadnan_railway_2021} contém 1399 image
         \caption{Defeituoso (deformação nos trilhos)}
         \label{fig:img4}
     \end{subfigure}
-
+    
     \fonteimagem{Fonte: \textcite{gpiosenka_railway_2022}}
     \label{fig:grade4}
+\end{figure}
+
+Como mencionado anteriormente, o segundo dataset não foi previamente redimensionado. Portanto suas imagens serão ajustadas para o formato 224x244x3,a fim de padronizar as dimensões e minimizar a heterogeneidade entre os diferentes conjuntos de dados.
+
+\begin{figure}[H]
+    \caption{Conjunto de imagens do segundo dataset}
+    \centering
+    \begin{subfigure}[b]{0.45\linewidth}
+        \centering
+        \includegraphics[width=0.8\linewidth]{images/dataset/2defeituoso.jpg}
+        \caption{Defeituoso}
+        \label{fig:img1 dataset2}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}[b]{0.45\linewidth}
+        \centering
+        \includegraphics[width=0.8\linewidth]{images/dataset/2ok.jpg}
+        \caption{Sem defeito}
+        \label{fig:img2 dataset2}
+    \end{subfigure}
 \end{figure}
 
 \subsection{Modelos}

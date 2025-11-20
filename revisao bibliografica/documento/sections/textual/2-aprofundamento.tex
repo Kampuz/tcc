@@ -55,8 +55,6 @@ Na prática, o funcionamento da transferência de aprendizado pode ser divido em
 
 \begin{enumerate}
     \item \textbf{Congelamento do modelo professor:} o modelo pré-treinado mantém sua capacidade de reconhecer padrões aprendidos anteriormente, funcionando como uma base de conhecimento para outros modelos.
-    \item \textbf{Mudança da tarefa alvo do modelo:} o modelo pode ter uma nova tarefa atribuida à ele (ex: CNN-CNN) ou pode parte da sua rede alterada para gerar um input para um outro modelo (ex: CNN-ViT).
-    
     \item \textbf{Adaptação à nova tarefa:} o modelo é ajustado para identificar padrões específicos da nova aplicação. Permitindo que o modelo aprenda o que é relevante para a nova tarefa sem precisar começar do zero, fazendo com que ele aprenda mais, mesmo possuindo poucos dados.
     Também é possível, no caso de modelos híbridos, fazer com que parte do processo final de pensamento do modelo professor seja adaptado para gerar o input para o modelo aluno, por exemplo, adaptar a camada totalmente conectada de uma CNN para ser o input de uma SVM.
 \end{enumerate}
