@@ -1,0 +1,96 @@
+\section{Aprofundamento teórico}
+
+\subsection{Aprendizado profundo}
+
+O aprendizado profundo é um subcampo do aprendizado de máquina que se baseia no uso de redes neurais artificiais com múltiplas camadas, capazes de modelar relações complexas em dados. Ao contrário de algoritmos tradicionais de aprendizado de máquina, que frequentemente dependem de extração manual de características, o aprendizado profundo consegue aprender automaticamente representações hierárquicas dos dados.
+
+No contexto de imagens, por exemplo, redes profundas podem aprender a reconhecer padrões visuais em diferentes níveis de abstração: camadas iniciais detectam bordas e contornos, camadas intermediárias capturam formas e texturas, e camadas mais profundas identificam objetos completos ou padrões de defeitos. Isso faz com que o modelo identifique até mesmo defeitos sutis nas imagens.
+
+As redes profundas são compostas por várias unidades chamadas neurônios artificiais, organizadas em camadas. Cada neurônio realiza operações matemáticas sobre os dados de entrada, aplicando pesos e funções de ativação não lineares, o que possibilita à rede modelar relações complexas entre variáveis. O treinamento de uma rede profunda envolve a otimização desses pesos, geralmente por meio do algoritmo de retropropagação, que ajusta os parâmetros para minimizar o erro entre a saída prevista e a saída real.
+
+\begin{figure}[H]
+    \centering
+    \caption{Imagem mostrando as múltiplas camadas de um modelo de aprendizado profundo}
+    \includegraphics[width=0.5\linewidth]{images/aprendizado profundo.png}\\
+    \fonteimagem{Fonte: Vinicius Soares de Silveira}
+    \label{fig:aprendizado profundo}
+\end{figure}
+
+\subsection{Transferencia de aprendizado}
+
+Um dos desafios em aprendizado profundo é a necessidade de grandes quantidades de dados rotulados para treinar redes neurais com bom desempenho.
+Em tarefas específicas, como a detecção de defeitos em trilhos ferroviários, os datasets podem ser pequenos, tornando difícil o treinamento de redes do zero.
+Nesse contexto a transferência de aprendizado acaba se tornando uma solução eficiente.
+
+A transferência de aprendizado consiste em aproveitar o conhecimento adquirido por um modelo previamente treinado em um grande dataset genérico, como ImageNet ou COCO, e aplicá-lo a uma nova tarefa com dados limitados.
+O modelo pré-treinado já aprendeu a identificar padrões visuais fundamentais, como bordas, formas e texturas, que podem ser úteis em diversos domínios visuais.
+
+Na prática, o funcionamento da transferência de aprendizado pode ser divido em um processo em duas etapas:
+
+\begin{enumerate}
+    \item \textbf{Reaproveitamento do conhecimento existente:} o modelo pré-treinado mantém sua capacidade de reconhecer padrões aprendidos anteriormente, funcionando como uma base de conhecimento.
+    
+    \item \textbf{Adaptação à nova tarefa:} o modelo é ajustado para identificar padrões específicos da nova aplicação. Permitindo que o modelo aprenda o que é relevante para a nova tarefa sem precisar começar do zero, fazendo com que ele aprenda mais, mesmo possuindo poucos dados.
+\end{enumerate}
+
+\begin{figure}[H]
+    \centering
+    \caption{Exemplificação de transferencia de aprendizado}
+    \includegraphics[width=0.8\linewidth]{images/transferencia de aprendizado.jpg}\\
+    \fonteimagem{Fonte: Free Time Learn}
+    \label{fig:transferencia de aprendizado}
+\end{figure}
+
+\subsection{Rede neural convolucional}
+
+As Redes Neurais Convolucionais (CNNs) são uma arquitetura específica de aprendizado profundo projetada para lidar com dados estruturados espacialmente, como imagens. Diferentemente de redes totalmente conectadas, onde cada neurônio se conecta a todos os neurônios da camada anterior, as CNNs utilizam camadas convolucionais que aplicam filtros (kernels) a regiões locais da imagem, extraindo características relevantes com compartilhamento de pesos.
+
+Uma CNN típica é composta por três tipos de camadas principais:
+
+\begin{itemize}    
+    \item \textbf{Camadas Convolucionais:} Aplicam filtros que detectam padrões locais, como bordas, curvas e texturas. Cada filtro responde a um tipo específico de característica, produzindo mapas de ativação que destacam essas informações.
+    
+    \item \textbf{Camadas de Agrupamento:} Reduzem a dimensionalidade dos mapas de ativação, preservando informações importantes e tornando o modelo menos sensível a pequenas variações na posição dos objetos.
+    
+    \item \textbf{Camadas Totalmente Conectadas:} Recebem as características extraídas e produzem a saída final.
+\end{itemize}
+
+\begin{figure}[H]
+    \centering
+    \caption{Exemplificação de uma rede neural convolucional}
+    \includegraphics[width=0.8\linewidth]{images/cnn.png}\\
+    \fonteimagem{Fonte: Martin Andreoni}
+    \label{fig:rede neural convolucional}
+\end{figure}
+
+No caso da detecção de anomalias em trilhos ferroviários, as CNNs permitem que o modelo aprenda automaticamente padrões de falhas, como deformações na alma do trilho, fissuras ou ausência de dormentes, sem a necessidade de extração manual de características. A capacidade de capturar hierarquias de features locais torna as CNNs particularmente eficientes para imagens de alta resolução, mesmo em datasets de tamanho moderado.
+
+\subsection{Transformadores visuais}
+
+Os Transformadores Visuais (ViTs) representam uma abordagem mais recente no processamento de imagens, inspirada nos Transformers utilizados originalmente em tarefas de linguagem natural. Enquanto as CNNs focam em padrões locais, os transformadores capturam relações globais na imagem por meio de mecanismos de atenção, permitindo que o modelo considere o contexto completo ao tomar decisões.
+
+O funcionamento básico de um Vision Transformer envolve:
+
+\begin{itemize}
+    \item Divisão da imagem em patches menores.
+    
+    \item Transformação de cada patch em vetores de embedding, que codificam informações visuais.
+    
+    \item Passagem dos embeddings por camadas de autoatenção, que ponderam a importância relativa de cada patch em relação aos outros, integrando contexto global.
+    
+    \item Classificação ou detecção baseada nos embeddings processados, permitindo identificar padrões complexos e sutis, como pequenas fissuras ou deformações.
+\end{itemize}
+
+\begin{figure}[H]
+    \centering
+    \caption{Exemplificação do funcionamento de um transformador visual}
+    \includegraphics[width=0.8\linewidth]{images/transformador viusal.png}\\
+    \fonteimagem{Fonte: Jingxin Liang et al.}
+    \label{fig:transformador visual}
+\end{figure}
+
+Transformadores visuais têm se mostrado altamente eficazes em tarefas onde a variabilidade de cenários é grande ou os datasets são limitados, pois conseguem aproveitar melhor a informação contextual e evitar confusões causadas por objetos próximos ou fundos complexos.
+
+Como observado no trabalho de Shahin et al, modelos híbridos, combinando CNNs e ViTs, também têm sido utilizados para aproveitar a extração local de CNNs e a consciência global dos transformadores, alcançando desempenho superior em detecção de defeitos ferroviários.
+Isso é feito, treinando CNNs em grandes datasets de imagens e utilizando-as para treinar os ViTs.
+%\cite{s24103247}
