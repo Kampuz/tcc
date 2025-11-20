@@ -4,7 +4,7 @@
 
 O aprendizado profundo é um subcampo do aprendizado de máquina que se baseia no uso de redes neurais artificiais com múltiplas camadas, capazes de modelar relações complexas em dados. Ao contrário de algoritmos tradicionais de aprendizado de máquina, que frequentemente dependem de extração manual de características, o aprendizado profundo consegue aprender automaticamente representações hierárquicas dos dados.
 
-No contexto de imagens, por exemplo, redes profundas podem aprender a reconhecer padrões visuais em diferentes níveis de abstração: camadas iniciais detectam bordas e contornos, camadas intermediárias capturam formas e texturas, e camadas mais profundas identificam objetos completos ou padrões de defeitos. Fazendo com que o modelo identifique até mesmo defeitos sutis nas imagens.
+No contexto de imagens, por exemplo, redes profundas podem aprender a reconhecer padrões visuais em diferentes níveis de abstração: camadas iniciais detectam bordas e contornos, camadas intermediárias capturam formas e texturas, e camadas mais profundas identificam objetos completos ou padrões de defeitos. Fazendo com que o modelo também identifique defeitos sutis.
 
 As redes profundas são compostas por várias unidades chamadas neurônios artificiais, organizadas em camadas. Cada neurônio realiza operações matemáticas sobre os dados de entrada, aplicando pesos e funções de ativação não lineares, o que possibilita à rede modelar relações complexas entre variáveis. O treinamento de uma rede profunda envolve a otimização desses pesos, geralmente por meio do algoritmo de retropropagação, que ajusta os parâmetros para minimizar o erro entre a saída prevista e a saída real.
 
@@ -16,21 +16,49 @@ As redes profundas são compostas por várias unidades chamadas neurônios artif
     \label{fig:aprendizado profundo}
 \end{figure}
 
-\subsection{Transferencia de aprendizado}
+\subsection{Rede neural convolucional}
 
-Um dos desafios em aprendizado profundo é a necessidade de grandes quantidades de dados rotulados para treinar redes neurais com bom desempenho.
-Em tarefas específicas, como a detecção de defeitos em trilhos ferroviários, os datasets podem ser pequenos, tornando difícil o treinamento de redes do zero.
-Nesse contexto a transferência de aprendizado acaba se tornando uma solução eficiente.
+As Redes Neurais Convolucionais (CNNs) são uma arquitetura específica de aprendizado profundo projetada para lidar com dados estruturados espacialmente, onde o valor de um elemento está relacionado com seus vizinhos, por exemplo, imagens.
+
+Uma CNN típica é composta por:
+
+\begin{itemize}    
+    \item \textbf{Uma camada de Entrada:} Recebem os dados em formato de matriz.
+    
+    \item \textbf{N Camadas Convolucionais:} Aplicam filtros que detectam padrões locais (Kernels), como bordas, curvas e texturas. Cada filtro responde a um tipo específico de característica, produzindo mapas de características que destacam essas informações.
+    Nesses mapas, são adicionados bias e aplicadas funções de ativação (ex: ReLU), com o intuito de introduzir não linearidade ao sistema e permitir o aprendizado de padrões mais complexos.
+    
+    \item \textbf{N Camadas de Agrupamento:} Reduzem a dimensionalidade da matriz resultante (mapas de ativação), preservando informações importantes e tornando o modelo menos sensível a pequenas variações na posição dos objetos.
+    
+    \item \textbf{Uma Camada Totalmente Conectadas:} Recebem as características extraídas em forma de um vetor, processa elas e sãoe produzem a saída final.
+\end{itemize}
+\begin{figure}[H]
+    \centering
+    \caption{Exemplificação de uma rede neural convolucional}
+    \includegraphics[width=0.8\linewidth]{images/cnn.png}\\
+    \fonteimagem{Fonte: \textcite{inbook}}
+    \label{fig:rede neural convolucional}
+\end{figure}
+
+No caso da detecção de anomalias em trilhos ferroviários, as CNNs permitem que o modelo aprenda automaticamente padrões de falhas, como deformações, fissuras, ou desgaste, sem a necessidade de extração manual de características.
+
+\subsection{Transferência de aprendizado}
+
+Um dos desafios para o uso aprendizado profundo é a necessidade de grandes quantidades de dados rotulados para treinar redes neurais com bom desempenho.
+Esse problema se agrava no meio acadêmico, onde é difícil encontrar bancos de dados volumosos, fazendo com que o treinamento de uma rede do zero se torne inviávels.
+Para esse tipo de situação, foram criadas técnicas como a transferência de aprendizado.
 
 A transferência de aprendizado consiste em aproveitar o conhecimento adquirido por um modelo previamente treinado em um grande dataset genérico, como ImageNet ou COCO, e aplicá-lo a uma nova tarefa com dados limitados.
-O modelo pré-treinado já aprendeu a identificar padrões visuais fundamentais, como bordas, formas e texturas, que podem ser úteis em diversos domínios visuais.
+O modelo pré-treinado já aprendeu a identificar padrões visuais fundamentais que podem ser úteis em diversos domínios visuais, como bordas, formas e texturas.
 
 Na prática, o funcionamento da transferência de aprendizado pode ser divido em um processo em duas etapas:
 
 \begin{enumerate}
-    \item \textbf{Reaproveitamento do conhecimento existente:} o modelo pré-treinado mantém sua capacidade de reconhecer padrões aprendidos anteriormente, funcionando como uma base de conhecimento para outros modelos.
+    \item \textbf{Congelamento do modelo professor:} o modelo pré-treinado mantém sua capacidade de reconhecer padrões aprendidos anteriormente, funcionando como uma base de conhecimento para outros modelos.
+    \item \textbf{Mudança da tarefa alvo do modelo:} o modelo pode ter uma nova tarefa atribuida à ele (ex: CNN-CNN) ou pode parte da sua rede alterada para gerar um input para um outro modelo (ex: CNN-ViT).
     
     \item \textbf{Adaptação à nova tarefa:} o modelo é ajustado para identificar padrões específicos da nova aplicação. Permitindo que o modelo aprenda o que é relevante para a nova tarefa sem precisar começar do zero, fazendo com que ele aprenda mais, mesmo possuindo poucos dados.
+    Também é possível, no caso de modelos híbridos, fazer com que parte do processo final de pensamento do modelo professor seja adaptado para gerar o input para o modelo aluno, por exemplo, adaptar a camada totalmente conectada de uma CNN para ser o input de uma SVM.
 \end{enumerate}
 
 \begin{figure}[H]
@@ -41,29 +69,7 @@ Na prática, o funcionamento da transferência de aprendizado pode ser divido em
     \label{fig:transferencia de aprendizado}
 \end{figure}
 
-\subsection{Rede neural convolucional}
-
-As Redes Neurais Convolucionais (CNNs) são uma arquitetura específica de aprendizado profundo projetada para lidar com dados estruturados espacialmente, como imagens. Diferentemente de redes totalmente conectadas, onde cada neurônio se conecta a todos os neurônios da camada anterior, as CNNs utilizam camadas convolucionais que aplicam filtros (kernels) a regiões locais da imagem, extraindo características relevantes com compartilhamento de pesos.
-
-Uma CNN típica é composta por três tipos de camadas principais:
-
-\begin{itemize}    
-    \item \textbf{Camadas Convolucionais:} Aplicam filtros que detectam padrões locais, como bordas, curvas e texturas. Cada filtro responde a um tipo específico de característica, produzindo mapas de ativação que destacam essas informações.
-    
-    \item \textbf{Camadas de Agrupamento:} Reduzem a dimensionalidade dos mapas de ativação, preservando informações importantes e tornando o modelo menos sensível a pequenas variações na posição dos objetos.
-    
-    \item \textbf{Camadas Totalmente Conectadas:} Recebem as características extraídas e produzem a saída final.
-\end{itemize}
-
-\begin{figure}[H]
-    \centering
-    \caption{Exemplificação de uma rede neural convolucional}
-    \includegraphics[width=0.8\linewidth]{images/cnn.png}\\
-    \fonteimagem{Fonte: \textcite{inbook}}
-    \label{fig:rede neural convolucional}
-\end{figure}
-
-No caso da detecção de anomalias em trilhos ferroviários, as CNNs permitem que o modelo aprenda automaticamente padrões de falhas, como deformações na alma do trilho, fissuras ou ausência de dormentes, sem a necessidade de extração manual de características. A capacidade de capturar hierarquias de features locais torna as CNNs particularmente eficientes para imagens de alta resolução, mesmo em datasets de tamanho moderado.
+Na Figura \ref{fig:transferencia de aprendizado} é demonstrado a diferença do processo de treinamento de uma CNN treinada do zero e treinamento de uma CNN pré-treinada, sendo necessário apenas modificar camada de saída da rede e realizar o aperfeiçoamento dos parâmetros.
 
 \subsection{Transformadores visuais}
 
@@ -94,3 +100,13 @@ Transformadores visuais têm se mostrado altamente eficazes em tarefas onde a va
 Como observado no trabalho de Shahin et al, modelos híbridos, combinando CNNs e ViTs, também têm sido utilizados para aproveitar a extração local de CNNs e a consciência global dos transformadores, alcançando desempenho superior em detecção de defeitos ferroviários.
 Isso é feito, treinando CNNs em grandes datasets de imagens e utilizando-as para treinar os ViTs.
 %\cite{s24103247}
+
+\subsubsection{CNN pré-treinada}
+
+Será utilizada uma redes neural convolucionais pré-treinada para aproveitar o conhecimento adquirido por grandes modelos treinados em bases extensas como ImageNet e minimizar os impactos causados pelo uso de um dataset reduzido.
+
+A arquitetura escolhida foi a MobileNetV3, sendo esta uma melhoria do mobileNetV2 utilizada por \textcite{MobileNetV3} em seu trabalho de identificação de defeitos em pinos de fixação e amplamente recomendada para tratar de datasets pequenos, como é o caso.
+
+\subsubsection{SVM}
+
+Neste modelo híbrido, uma CNN pré-treinada será utilizada como extratora de características. As últimas camadas convolucionais produzem vetores representativos do conteúdo visual da imagem, que são utilizados como entrada para a SVM.
