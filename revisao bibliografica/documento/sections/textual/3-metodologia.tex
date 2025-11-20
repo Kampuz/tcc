@@ -1,6 +1,68 @@
-\section{Metodologia}
+%\section{Metodologia}
 
-\subsection{Resultados Esperados}
+\subsection{Dataset}
 
+O dataset inicial que será utilizado neste trabalho é o \textit{Railway Track fault Detection Resized (224 X 224)}, disponibilizado na plataforma Kaggle por Gerry.
+Trata-se de uma versão redimensionada do conjunto original \textit{Railway Track Fault Detection}.
+Segundo o autor, as imagens possuem alta resolução, o que torna o pré-processamento custoso; por esse motivo o dataset foi recriado com todas as imagens reduzidas para 244x244x3, facilitando seu uso, também foi incluido um arquivo \textit{rails.csv}, que simplifica o carregamento e a organização das amostras.
+
+O conjunto contém 384 imagens de trilhos, sendo metade correspondente a trilhos defeituosos e a outra metade a trilhos em boas condições.
+A divisão proposta pelo autor distribui as imagens em 6\% para teste, 78\% para treinamento e 16\% para validação. 
+
+Os defeitos representados no dataset concentram-se em três categorias: ausência de pinos de fixação, deformações na alma do trilho (parte lateral entre a)
+
+Ele é composto por três tipos de defeitos, falta de pinos, deformações/rachaduras nos trilhos e ausência de dormentes (tábuas transversais aos trilhos)
+
+\begin{figure}[H]
+    \centering
+    \caption{Exemplificação de imagens presentes no dataset}
+    \includegraphics[width=0.8\linewidth]{images/Teste.png}\\
+    \fonteimagem{Fonte: Gerry (adaptado)}
+    \label{fig:exemplificação do dataset}
+\end{figure}
+
+Devido ao tamanho reduzido e à qualidade limitada do dataset, permanece em aberto a possibilidade de incorporar novos conjuntos de dados, seja para ampliar a quantiade de amostras disponíveis, seja para garantir maior diversidade visual e melhorar o desempenho dos modelos.
+
+%\subsection{Pipeline}
+
+%\subsection{Resultados Esperados}
 
 \subsection{Avaliação dos Resultados}
+
+Os resultados dos modelos serão avaliados utilizando quatro métricas:
+
+\begin{itemize}
+    \item \textbf{Acurácia} (Accuracy) \\
+    Mede a proporção de classificações corretas, sendo utilizada para analisar o desempenho dos modelos de forma geral.
+    \[
+        A = \frac{CC}{CC + CI}
+    \]
+
+    \item \textbf{Precisão} (Precision)\\
+    Mede a proporção de positivos verdadeiros entre as predições positivas, sendo utilizada para avaliar o grau de confiabilidade das detecções positivas.
+    \[
+        P = \frac{VP}{VP + FP}
+    \]
+
+    \item \textbf{Revocação} (Recall) \\
+    Mede a capacidade do modelo de recuperar os positivos reais, avaliando o quanto o modelo deixa de detectar casos positivos.
+    \[
+        R = \frac{VP}{VP + FN}
+    \]
+    
+    \item \textbf{F1-score} \\
+    Média harmônica entre precisão e revocação, resumindo ambas em uma única métrica.
+    \[
+        F1 = 2 \dot \frac{P \dot R}{P + R}
+    \]
+\end{itemize}
+
+\noindent\textbf{Legenda das siglas:}
+\begin{itemize}
+    \item CC: Classificações Corretas;
+    \item CI: Classificações Incorretas;
+    \item VP: Verdadeiros Positivos;
+    \item FP: Falsos Positivos;
+    \item FN: Falsos Negativos;
+    \item VN: Verdadeiros Negativos;
+\end{itemize}
