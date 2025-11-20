@@ -99,6 +99,113 @@
       \field{note}{Accessed: 2025-11-20}
       \field{title}{Explain Transfer Learning in the Context of Deep Learning}
     \endentry
+    \entry{gpiosenka_railway_2022}{misc}{}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=009f1018ca48601358f1e18052705765}{%
+           family={Gerry},
+           familyi={G\bibinitperiod}}}%
+        {{un=0,uniquepart=base,hash=7f3101c3f39e7f6447356b52623ace1d}{%
+           family={Hossain},
+           familyi={H\bibinitperiod},
+           given={Shahriar},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=16bc59d1eb469b99b4f83c592ca81b45}{%
+           family={Eunus},
+           familyi={E\bibinitperiod},
+           given={Salman\bibnamedelima Ibne},
+           giveni={S\bibinitperiod\bibinitdelim I\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b861f1f76ef1e5164f0c5afbfd3d39f0}{%
+           family={Adnan},
+           familyi={A\bibinitperiod},
+           given={Ashik},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{516c8a21a4e9aa54ef81cc96402ed9d5}
+      \strng{fullhash}{3b6b9bb08d5585547f995625c8bc8451}
+      \strng{fullhashraw}{3b6b9bb08d5585547f995625c8bc8451}
+      \strng{bibnamehash}{516c8a21a4e9aa54ef81cc96402ed9d5}
+      \strng{authorbibnamehash}{516c8a21a4e9aa54ef81cc96402ed9d5}
+      \strng{authornamehash}{516c8a21a4e9aa54ef81cc96402ed9d5}
+      \strng{authorfullhash}{3b6b9bb08d5585547f995625c8bc8451}
+      \strng{authorfullhashraw}{3b6b9bb08d5585547f995625c8bc8451}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{Kaggle Dataset}
+      \field{note}{Accessed: 20 Nov. 2025}
+      \field{title}{Railway Track Fault Detection (Resized 224x224)}
+      \field{year}{2022}
+      \verb{urlraw}
+      \verb https://www.kaggle.com/datasets/gpiosenka/railway-track-fault-detection-resized-224-x-224
+      \endverb
+      \verb{url}
+      \verb https://www.kaggle.com/datasets/gpiosenka/railway-track-fault-detection-resized-224-x-224
+      \endverb
+    \endentry
+    \entry{hossain2021railway}{misc}{}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=7f3101c3f39e7f6447356b52623ace1d}{%
+           family={Hossain},
+           familyi={H\bibinitperiod},
+           given={Shahriar},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=16bc59d1eb469b99b4f83c592ca81b45}{%
+           family={Eunus},
+           familyi={E\bibinitperiod},
+           given={Salman\bibnamedelima Ibne},
+           giveni={S\bibinitperiod\bibinitdelim I\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b861f1f76ef1e5164f0c5afbfd3d39f0}{%
+           family={Adnan},
+           familyi={A\bibinitperiod},
+           given={Ashik},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9128f1d5712c6e7113a7326e5fea49ee}{%
+           family={Ridwan},
+           familyi={R\bibinitperiod},
+           given={A.\bibnamedelimi E.\bibnamedelimi M.},
+           giveni={A\bibinitperiod\bibinitdelim E\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Kaggle}%
+      }
+      \strng{namehash}{d67163ff25b5dd597b817d09e85c953c}
+      \strng{fullhash}{20dc7da50ec83994f5cd89f3253dfa1f}
+      \strng{fullhashraw}{20dc7da50ec83994f5cd89f3253dfa1f}
+      \strng{bibnamehash}{d67163ff25b5dd597b817d09e85c953c}
+      \strng{authorbibnamehash}{d67163ff25b5dd597b817d09e85c953c}
+      \strng{authornamehash}{d67163ff25b5dd597b817d09e85c953c}
+      \strng{authorfullhash}{20dc7da50ec83994f5cd89f3253dfa1f}
+      \strng{authorfullhashraw}{20dc7da50ec83994f5cd89f3253dfa1f}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{Kaggle Dataset}
+      \field{note}{Accessed: 20 Nov. 2025}
+      \field{title}{Railway Track Fault Detection}
+      \field{year}{2021}
+      \verb{doi}
+      \verb 10.34740/KAGGLE/DSV/1884733
+      \endverb
+      \verb{urlraw}
+      \verb https://www.kaggle.com/dsv/1884733
+      \endverb
+      \verb{url}
+      \verb https://www.kaggle.com/dsv/1884733
+      \endverb
+    \endentry
     \entry{article}{article}{}{}
       \name{author}{3}{}{%
         {{un=0,uniquepart=base,hash=89421605e469da246066c2a857c3ebcf}{%
@@ -195,6 +302,92 @@
       \field{howpublished}{\url{https://www.researchgate.net/figure/Figura-4-Visao-geral-das-redes-neurais-no-aprendizado-profundo_fig4_319212925}}
       \field{note}{Acessado em: 20 Nov 2025}
       \field{title}{Inteligência Artificial: Uma era de abundância ou o fim da espécie humana? -- Visão geral das redes neurais no aprendizado profundo}
+    \endentry
+    \entry{MobileNetV3}{article}{}{}
+      \name{author}{8}{}{%
+        {{un=0,uniquepart=base,hash=bc4324d48206f89c538a4378f076d187}{%
+           family={Zheng},
+           familyi={Z\bibinitperiod},
+           given={Danyang},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=98d02a0fdd662dce849277bfb3dc1864}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Liming},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e9b7fb8e0ef547954908292a9640ecf7}{%
+           family={Zheng},
+           familyi={Z\bibinitperiod},
+           given={Shubin},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=aa35d97a063cdde6e8c3669193b6c0de}{%
+           family={Chai},
+           familyi={C\bibinitperiod},
+           given={Xiaodong},
+           giveni={X\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=92a79751fa89107d8fe768d06868eae7}{%
+           family={Zhao},
+           familyi={Z\bibinitperiod},
+           given={Shuguang},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=de03cbc18316796bc043c2afcb7f4386}{%
+           family={Tong},
+           familyi={T\bibinitperiod},
+           given={Qianqian},
+           giveni={Q\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=101864955a39bd807830fbac5dee909d}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Ji},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d3a27a5e1024258d9f7ea967c48d7d26}{%
+           family={Guo},
+           familyi={G\bibinitperiod},
+           given={Lizheng},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{053cde167b780d115acdac126b0fc340}
+      \strng{fullhash}{e630a9972a3cc6827f28b248714a7d2f}
+      \strng{fullhashraw}{e630a9972a3cc6827f28b248714a7d2f}
+      \strng{bibnamehash}{053cde167b780d115acdac126b0fc340}
+      \strng{authorbibnamehash}{053cde167b780d115acdac126b0fc340}
+      \strng{authornamehash}{053cde167b780d115acdac126b0fc340}
+      \strng{authorfullhash}{e630a9972a3cc6827f28b248714a7d2f}
+      \strng{authorfullhashraw}{e630a9972a3cc6827f28b248714a7d2f}
+      \field{sortinit}{Z}
+      \field{sortinithash}{96892c0b0a36bb8557c40c49813d48b3}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{As a result of long-term pressure from train operations and direct exposure to the natural environment, rails, fasteners, and other components of railway track lines inevitably produce defects, which have a direct impact on the safety of train operations. In this study, a multiobject detection method based on deep convolutional neural network that can achieve nondestructive detection of rail surface and fastener defects is proposed. First, rails and fasteners on the railway track image are localized by the improved YOLOv5 framework. Then, the defect detection model based on Mask R-CNN is utilized to detect the surface defects of the rail and segment the defect area. Finally, the model based on ResNet framework is used to classify the state of the fasteners. To verify the robustness and effectiveness of our proposed method, we conduct experimental tests using the ballast and ballastless railway track images collected from Shijiazhuang-Taiyuan high-speed railway line. Through a variety of evaluation indexes to compare with other methods using deep learning algorithms, experimental results show that our method outperforms others in all stages and enables effective detection of rail surface and fasteners.}
+      \field{journaltitle}{Computational Intelligence and Neuroscience}
+      \field{number}{1}
+      \field{title}{A Defect Detection Method for Rail Surface and Fasteners Based on Deep Convolutional Neural Network}
+      \field{volume}{2021}
+      \field{year}{2021}
+      \field{pages}{2565500}
+      \range{pages}{1}
+      \verb{doi}
+      \verb https://doi.org/10.1155/2021/2565500
+      \endverb
+      \verb{eprint}
+      \verb https://onlinelibrary.wiley.com/doi/pdf/10.1155/2021/2565500
+      \endverb
+      \verb{urlraw}
+      \verb https://onlinelibrary.wiley.com/doi/abs/10.1155/2021/2565500
+      \endverb
+      \verb{url}
+      \verb https://onlinelibrary.wiley.com/doi/abs/10.1155/2021/2565500
+      \endverb
     \endentry
   \enddatalist
 \endrefsection
