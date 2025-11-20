@@ -15,10 +15,40 @@ Ele é composto por três tipos de defeitos, falta de pinos, deformações/racha
 
 \begin{figure}[H]
     \centering
-    \caption{Exemplificação de imagens presentes no dataset}
-    \includegraphics[width=0.5\linewidth]{images/Teste.png}\\
-    \fonteimagem{Fonte: Gerry (adaptado)}
-    \label{fig:exemplificação do dataset}
+    % Primeira linha
+    \begin{subfigure}[b]{0.45\linewidth}
+        \centering
+        \includegraphics[width=1\linewidth]{images/dataset/boas condicoes.jpg}
+        \caption{Imagem sem defeito}
+        \label{fig:img1}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}[b]{0.45\linewidth}
+        \centering
+        \includegraphics[width=1\linewidth]{images/dataset/falta pino.jpg}
+        \caption{pino superior faltando}
+        \label{fig:img2}
+    \end{subfigure}
+
+    \vspace{0.5cm} % Espaço entre linhas
+
+    % Segunda linha
+    \begin{subfigure}[b]{0.45\linewidth}
+        \centering
+        \includegraphics[width=1\linewidth]{images/dataset/fundacao.jpeg}
+        \caption{defeito na fundação}
+        \label{fig:img3}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}[b]{0.45\linewidth}
+        \centering
+        \includegraphics[width=1\linewidth]{images/dataset/rachadura.jpg}
+        \caption{deformação/rachadura nos trilhos}
+        \label{fig:img4}
+    \end{subfigure}
+
+    \caption{Conjunto de imagens em grade 2x2. Fonte: Gerry (2022)}
+    \label{fig:grade4}
 \end{figure}
 
 Devido ao tamanho reduzido e à qualidade limitada do dataset, permanece em aberto a possibilidade de incorporar novos conjuntos de dados, seja para ampliar a quantiade de amostras disponíveis, seja para garantir maior diversidade visual e melhorar o desempenho dos modelos.
@@ -29,17 +59,27 @@ Devido ao tamanho reduzido e à qualidade limitada do dataset, permanece em aber
 
 \subsection{Avaliação dos Resultados}
 
-Os resultados dos modelos serão avaliados utilizando quatro métricas:
+Os resultados dos testes serão obtidos através de uma matriz de confusão com o objetivo de determinar
+
+\begin{figure}[H]
+    \centering
+    \caption{Imagem mostrando o exemplo de uma matriz de confusão}
+    \includegraphics[width=0.5\linewidth]{images/matriz de confusão.png}\\
+    \fonteimagem{Fonte: \textcite{brains2023performance}}
+    \label{fig:matriz de confusão}
+\end{figure}
+
+Os resultados dos modelos serão avaliados utilizando quatro métricas que são amplamente utilizadas na avaliação de modelos de classificação:
 
 \begin{itemize}
     \item \textbf{Acurácia} (Accuracy) \\
-    Mede a proporção de classificações corretas, sendo utilizada para analisar o desempenho dos modelos de forma geral.
+    Mede a proporção de classificações corretas em relação ao total de predições realizadas, sendo utilizada para analisar o desempenho dos modelos de forma geral.
     \[
         A = \frac{CC}{CC + CI}
     \]
 
     \item \textbf{Precisão} (Precision)\\
-    Mede a proporção de positivos verdadeiros entre as predições positivas, sendo utilizada para avaliar o grau de confiabilidade das detecções positivas.
+    Mede a proporção de positivos verdadeiros entre todas as predições positivas, sendo utilizada para avaliar o grau de confiabilidade das detecções positivas.
     \[
         P = \frac{VP}{VP + FP}
     \]
@@ -53,7 +93,7 @@ Os resultados dos modelos serão avaliados utilizando quatro métricas:
     \item \textbf{F1-score} \\
     Média harmônica entre precisão e revocação, resumindo ambas em uma única métrica.
     \[
-        F1 = 2 \dot \frac{P \dot R}{P + R}
+        F1 = 2 \cdot \frac{P \cdot R}{P + R}
     \]
 \end{itemize}
 
@@ -64,5 +104,6 @@ Os resultados dos modelos serão avaliados utilizando quatro métricas:
     \item VP: Verdadeiros Positivos;
     \item FP: Falsos Positivos;
     \item FN: Falsos Negativos;
-    \item VN: Verdadeiros Negativos;
 \end{itemize}
+
+Após a obtenção dos resultados, será feito uma comparação com os estudos da literatura, buscando descobrir o motivo

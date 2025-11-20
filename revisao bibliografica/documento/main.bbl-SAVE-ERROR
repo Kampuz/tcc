@@ -76,6 +76,31 @@
       \verb 10.5753/sbc.7165.8.4
       \endverb
     \endentry
+    \entry{brains2023performance}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=42f2e14b9a448cde73d87865374368fe}{%
+           family={{Brains.Dev}},
+           familyi={B\bibinitperiod}}}%
+      }
+      \strng{namehash}{42f2e14b9a448cde73d87865374368fe}
+      \strng{fullhash}{42f2e14b9a448cde73d87865374368fe}
+      \strng{fullhashraw}{42f2e14b9a448cde73d87865374368fe}
+      \strng{bibnamehash}{42f2e14b9a448cde73d87865374368fe}
+      \strng{authorbibnamehash}{42f2e14b9a448cde73d87865374368fe}
+      \strng{authornamehash}{42f2e14b9a448cde73d87865374368fe}
+      \strng{authorfullhash}{42f2e14b9a448cde73d87865374368fe}
+      \strng{authorfullhashraw}{42f2e14b9a448cde73d87865374368fe}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://brains.dev/2023/medidas-de-performance-modelos-de-classificacao/}}
+      \field{note}{Acessado em: 20 Nov 2025}
+      \field{title}{Medidas de performance de modelos de classificação}
+      \field{year}{2023}
+    \endentry
     \entry{freetimelearning_transfer_learning}{misc}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=39dd48a9f3f119478711fa3a5b1cb5ab}{%
@@ -144,34 +169,6 @@
       \verb{doi}
       \verb 10.1088/1742-6596/2002/1/012068
       \endverb
-    \endentry
-    \entry{brains2023performance}{misc}{}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=04a0e3d8da5e4592c9e93379d1a4670a}{%
-           family={Lopes},
-           familyi={L\bibinitperiod},
-           given={André},
-           giveni={A\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{04a0e3d8da5e4592c9e93379d1a4670a}
-      \strng{fullhash}{04a0e3d8da5e4592c9e93379d1a4670a}
-      \strng{fullhashraw}{04a0e3d8da5e4592c9e93379d1a4670a}
-      \strng{bibnamehash}{04a0e3d8da5e4592c9e93379d1a4670a}
-      \strng{authorbibnamehash}{04a0e3d8da5e4592c9e93379d1a4670a}
-      \strng{authornamehash}{04a0e3d8da5e4592c9e93379d1a4670a}
-      \strng{authorfullhash}{04a0e3d8da5e4592c9e93379d1a4670a}
-      \strng{authorfullhashraw}{04a0e3d8da5e4592c9e93379d1a4670a}
-      \field{sortinit}{L}
-      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{howpublished}{\url{https://brains.dev/2023/medidas-de-performance-modelos-de-classificacao/}}
-      \field{note}{Acessado em: 20 Nov 2025}
-      \field{title}{Medidas de performance de modelos de classificação}
-      \field{year}{2023}
     \endentry
     \entry{researchgate2025}{misc}{}{}
       \name{author}{1}{}{%
