@@ -1,12 +1,11 @@
 # Fdb version 4
-["biber main"] 1763619979.89076 "main.bcf" "main.bbl" "main" 1763620051.06055 0
-  "main.bcf" 1763620050 114292 0fc24d8b3d350ee4fa147a6e06b90ee6 "pdflatex"
-  "referencias.bib" 1763614991 1672 1b79938fb3da9de8bc55248dd16aa78b ""
+["biber main"] 1763646806.04693 "main.bcf" "main.bbl" "main" 1763649876.08096 0
+  "main.bcf" 1763649875 114148 df5495358e0aee7344f5f4f44dac576a "pdflatex"
   (generated)
   "main.bbl"
   "main.blg"
   (rewritten before read)
-["pdflatex"] 1763620047.98385 "c:/Users/Miguel/Desktop/Faculdade/TCC/tcc-repo/revisao bibliografica/documento/main.tex" "main.pdf" "main" 1763620051.06183 0
+["pdflatex"] 1763649873.29942 "c:/Users/Miguel/Desktop/Faculdade/TCC/tcc-repo/revisao bibliografica/documento/main.tex" "main.pdf" "main" 1763649876.08169 0
   "C:/Users/Miguel/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1763327471 82686 2381c3433487640bf26aa76a10db7eb2 ""
   "C:/Users/Miguel/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1761692077 13322393 c4ff9152f0b3ff46c28255a7ecf4019b ""
   "C:/Users/Miguel/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc" 1458473887 4993 80dc9bab7f31fb78a000ccfed0e27cab ""
@@ -162,18 +161,18 @@
   "C:/Users/Miguel/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1729265222 55384 b454dec21c2d9f45ec0b793f0995b992 ""
   "C:/Users/Miguel/AppData/Local/Programs/MiKTeX/tex/latex/xkeyval/xkeyval.sty" 1656236919 4937 4ce600ce9bd4ec84d0250eb6892fcf4f ""
   "C:/Users/Miguel/AppData/Local/Programs/MiKTeX/tex/latex/xpatch/xpatch.sty" 1585221260 8510 7803f78066c4f9d008405191a4b43073 ""
-  "c:/Users/Miguel/Desktop/Faculdade/TCC/tcc-repo/revisao bibliografica/documento/main.tex" 1763611358 1287 758917e5ecc7c999de4aa83b53c76867 ""
+  "c:/Users/Miguel/Desktop/Faculdade/TCC/tcc-repo/revisao bibliografica/documento/main.tex" 1763649871 1209 911342c4707039f17ce5f284f2de39a1 ""
   "config/commands.sty" 1763611358 1596 b84e5403c0e44c0472893b3a3f38ccb9 ""
   "config/config.sty" 1763611358 8780 2e42ce074857d0c35f98c8d583b2c24d ""
   "images/Teste.png" 1763611358 55805 a25e7f1f3bceaef5af6f8afd11af1eb7 ""
   "images/unesp.png" 1763611358 55805 a25e7f1f3bceaef5af6f8afd11af1eb7 ""
-  "main.aux" 1763620050 1410 cbbe064e090b39fd150d77382d732409 "pdflatex"
-  "main.bbl" 1763619982 486 76d65a242ec496c9b4361af646ff12cb "biber main"
-  "main.lof" 1763620050 158 9cd05387abe535766f9a2c03fe32c9da "pdflatex"
-  "main.out" 1763620050 481 06e86a927f9d2a9272f84431c716826b "pdflatex"
-  "main.run.xml" 1763620050 2511 69cd6e4d5254eb1b2eb52dc27ac94ed8 "pdflatex"
-  "main.tex" 1763611358 1287 758917e5ecc7c999de4aa83b53c76867 ""
-  "main.toc" 1763620050 334 76f719a1909bebfc88584593b94d8e80 "pdflatex"
+  "main.aux" 1763649875 2412 c3c9d17f30e08b28a48f6bc535744759 "pdflatex"
+  "main.bbl" 1763646808 486 76d65a242ec496c9b4361af646ff12cb "biber main"
+  "main.lof" 1763649875 159 d1faa9db1f4d609cfef1270783b7a93f "pdflatex"
+  "main.out" 1763649875 1418 54cbcefcba1d89982cf8046fd0e87435 "pdflatex"
+  "main.run.xml" 1763649875 2511 089319a5a32e9d53c6687dcdfef3561b "pdflatex"
+  "main.tex" 1763649871 1209 911342c4707039f17ce5f284f2de39a1 ""
+  "main.toc" 1763649875 892 2c0fcd53ae163f2bc7fcd749accb6aac "pdflatex"
   "sections/pre-textual/0-capa.tex" 1763611358 1128 f05e7095c7eab5ff5c7249946beca017 ""
   "sections/pre-textual/0-folha-de-rosto.tex" 1763611358 566 5c071a4a6d28048e40a3c4de994794c0 ""
   "sections/pre-textual/1-folha-de-aprovacao.tex" 1763611358 781 7b0ed4c26573344efbda6f205ffb16c1 ""
@@ -181,9 +180,9 @@
   "sections/pre-textual/3-resumo-ingles.tex" 1763611358 789 106aab1105de154ae36be04ecfb3b606 ""
   "sections/pre-textual/4-listas.tex" 1763619556 520 000bb03e406f3634a09466cc59d6069b ""
   "sections/pre-textual/5-sumario.tex" 1763611358 59 60f91d4da79d70b5da911de80a95b1cb ""
-  "sections/textual/1-introducao.tex" 1763620047 830 e2a59f1b99fdb8df47cfceb429ce511f ""
-  "sections/textual/2-trabalhos-relacionados.tex" 1763619424 94 710df5a3fa433f609755f0f36c19874a ""
-  "sections/textual/3-metodologia.tex" 1763619419 3173 4374ebca2412ce95fc438c2570d590f5 ""
+  "sections/textual/1-introducao.tex" 1763646109 3213 6e2414409c72f42723539c8322e4f2b2 ""
+  "sections/textual/2-trabalhos-relacionados.tex" 1763647425 1392 e22af927d24bea0e6c71cbaf94b0a1b5 ""
+  "sections/textual/3-metodologia.tex" 1763647639 3169 2ca596bc8e5db01d37ea5f48f23786b9 ""
   "sections/textual/4-referencias.tex" 1763611358 58 a586cbafd975acfae050bec695bbc9b4 ""
   (generated)
   "main.aux"

@@ -1,6 +1,34 @@
 %5-6 paginas
 
-%\section{Trabalhos Relacionados}
+\section{Trabalhos Relacionados}
 
 
-%\subsection{Relação entre trabalhos}
+
+\begin{table}[H]
+\centering
+\caption{Resumo de trabalhos relacionados em detecção de defeitos ferroviários}
+\begin{tabular}{|p{3cm}|p{3cm}|p{3cm}|p{3cm}|}
+\hline
+\textbf{Autor / Ano} & \textbf{Modelo} & \textbf{Tipo de dado} & \textbf{Resultados / Observações} \\
+\hline
+Karakose et al., 2017 & Métodos de visão clássica & Vídeo e imagens de trilhos & Limitado por falta de dados rotulados \\
+\hline
+Szegedy et al., 2015 & Inception CNN & Imagens gerais & Transfer learning para datasets pequenos \\
+\hline
+Dai et al., 2019 & AlexNet, ResNet & Trilhos / fixadores & Boa generalização usando pré-treinamento \\
+\hline
+Rail-Former, 2023 & Transformer semântico & Imagens de superfície de trilhos & Alta mIoU, captura detalhes pequenos \\
+\hline
+TrackNet, 2022 & Vision Transformer & Trilhos de alta velocidade & Melhoria em precisão e F1, usa transfer learning \\
+\hline
+MobileViT, 2022 & Compact Transformer & Imagens limitadas & Modelo leve, adequado para tempo real \\
+\hline
+EdgeViT, 2022 & Compact Transformer & Imagens limitadas & Eficiência computacional em CPU ARM \\
+\hline
+CTBM-DAHD, 2023 & CNN + Transformer & Arcing horns & Maior recall e precisão em alta velocidade \\
+\hline
+\end{tabular}
+\label{tab:trabalhos-relacionados}
+\end{table}
+
+\subsection{Relação com o meu trabalho}
