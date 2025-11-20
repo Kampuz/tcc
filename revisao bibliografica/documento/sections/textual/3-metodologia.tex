@@ -1,25 +1,45 @@
 \section{Metodologia}
 
-\subsection{Dataset}
+\subsection{Datasets}
 
-\subsubsection{sobre o dataset}
 
-O dataset que será utilizado neste trabalho será \textit{Railway Track fault Detection Resized (224 X 224)}, disponibilizado na plataforma Kaggle por \textcite{gpiosenka_railway_2022}.
+Um dos datasets utilizados neste trabalho será \textit{Railway Track fault Detection Resized (224 X 224)}, disponibilizado na plataforma Kaggle por \textcite{gpiosenka_railway_2022}.
 Trata-se de uma versão redimensionada do conjunto original \textit{Railway Track Fault Detection} disponibilizado por \textcite{hossain2021railway}, também na plataforma Kaggle.
 
 As imagens originais possuem alta resolução, o que torna o pré-processamento custoso, por esse motivo o dataset foi recriado com todas as imagens reduzidas para 244x244x3, facilitando seu uso, também foi incluido um arquivo \textit{rails.csv}, que simplifica o carregamento e a organização das amostras \cite{gpiosenka_railway_2022}.
 
-\subsubsection{dados do dataset}
+Também será utilizado o dataset \textit{Railway Track Fault Detection | Dataset2(Fastener)}, disponibilizado na plataforma Kaggle por \textcite{ashikadnan_railway_2021}.
+Porém, ao contrário do conjunto anterior, esse conjunto contém apenas imagens de pinos de fixação e não foi redimensionado.
 
-O conjunto contém 384 imagens de trilhos, sendo metade correspondente a trilhos defei\-tuosos e a outra metade a trilhos em boas condições.
-Ele é dividido em x imagens de treinamento, x imagens de teste e x imagens de validação, apresentadas três categorias de anomalias: ausência de pinos de fixação, deformações e rachaduras nos trilho e danos na fundação do trilho (parte de madeira transversal ao trilho).
+\subsubsection{informações sobre os datasets}
 
-Devido ao tamanho reduzido e à qualidade limitada do dataset, permanece em aberto a possibilidade de incorporar novos conjuntos de dados, seja para ampliar a quantiade de amostras disponíveis, seja para garantir maior diversidade visual e melhorar o desempenho dos modelos.
+Ambos os datasets são compostos pelo mesmo número de imagens com e sem anomalias.
+
+O conjunto de \textcite{gpiosenka_railway_2022} contém 384 imagens de trilhos divididas entre 300 imagens de treinamento, 22 imagens de teste e 62 imagens de validação. Esse conjunto contém tres tipos de anomalias:  ausência de pinos de fixação, deformações e rachaduras nos trilho e danos na fundação do trilho (parte de madeira transversal ao trilho).
+
+Enquanto que o conjunto de \textcite{ashikadnan_railway_2021} contém 1399 imagens de pinos de fixação divididas entre 980 imagens de treinamento, 140 imagens de teste 280 imagens de validação
+
+\begin{figure}[H]
+    \caption{Conjunto de imagens do segundo dataset}
+    \centering
+    \begin{subfigure}[b]{0.45\linewidth}
+        \centering
+        \includegraphics[width=0.8\linewidth]{images/dataset/boas condicoes.jpg}
+        \caption{Sem defeito}
+        \label{fig:img1 dataset2}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}[b]{0.45\linewidth}
+        \centering
+        \includegraphics[width=0.8\linewidth]{images/dataset/falta pino.jpg}
+        \caption{Ausência de pino superior}
+        \label{fig:img2 dataset2}
+    \end{subfigure}
+\end{figure}
 
 \begin{figure}[H]
     \caption{Conjunto de imagens do dataset em grade 2x2}
     \centering
-    % Primeira linha
     \begin{subfigure}[b]{0.45\linewidth}
         \centering
         \includegraphics[width=0.8\linewidth]{images/dataset/boas condicoes.jpg}
@@ -34,9 +54,8 @@ Devido ao tamanho reduzido e à qualidade limitada do dataset, permanece em aber
         \label{fig:img2}
     \end{subfigure}
 
-    \vspace{0.25cm} % Espaço entre linhas
+    \vspace{0.25cm}
 
-    % Segunda linha
     \begin{subfigure}[b]{0.45\linewidth}
         \centering
         \includegraphics[width=0.8\linewidth]{images/dataset/fundacao.jpeg}
@@ -56,9 +75,8 @@ Devido ao tamanho reduzido e à qualidade limitada do dataset, permanece em aber
 \end{figure}
 
 
-\subsection{Modelos}
 
-Os modelos que serão utilizados serão:
+\subsection{Modelos}
 
 \subsubsection{CNN pré-treinada}
 

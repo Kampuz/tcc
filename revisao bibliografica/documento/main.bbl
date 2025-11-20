@@ -19,6 +19,34 @@
 
 \refsection{0}
   \datalist[entry]{nty/global//global/global/global}
+    \entry{ashikadnan_railway_2021}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=b861f1f76ef1e5164f0c5afbfd3d39f0}{%
+           family={Adnan},
+           familyi={A\bibinitperiod},
+           given={Ashik},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{b861f1f76ef1e5164f0c5afbfd3d39f0}
+      \strng{fullhash}{b861f1f76ef1e5164f0c5afbfd3d39f0}
+      \strng{fullhashraw}{b861f1f76ef1e5164f0c5afbfd3d39f0}
+      \strng{bibnamehash}{b861f1f76ef1e5164f0c5afbfd3d39f0}
+      \strng{authorbibnamehash}{b861f1f76ef1e5164f0c5afbfd3d39f0}
+      \strng{authornamehash}{b861f1f76ef1e5164f0c5afbfd3d39f0}
+      \strng{authorfullhash}{b861f1f76ef1e5164f0c5afbfd3d39f0}
+      \strng{authorfullhashraw}{b861f1f76ef1e5164f0c5afbfd3d39f0}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{Kaggle}
+      \field{note}{Disponível em: \url{https://www.kaggle.com/datasets/ashikadnan/railway-track-fault-detection-dataset2fastener}. Acesso em: 20 nov. 2025}
+      \field{title}{Railway Track Fault Detection Dataset (Fastener Version)}
+      \field{year}{2021}
+    \endentry
     \entry{inbook}{inbook}{}{}
       \name{author}{5}{}{%
         {{un=0,uniquepart=base,hash=97dca4272199396196f9c5d234d019f7}{%
