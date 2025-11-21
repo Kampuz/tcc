@@ -1,5 +1,7 @@
 \section{Fundamentação teórica}
 
+Durante a revisão da literatura, foram identificados modelos e arquiteturas relevantes. No entanto, observa-se que muitos deles derivam de estruturas fundamentais semelhantes, incorporando otimizações, variações ou módulos adicionais para aprimorar o desempenho. Entre os conceitos mais releventes destacam-se:
+
 \subsection{Aprendizado profundo}
 
 O aprendizado profundo é um subcampo do aprendizado de máquina que se baseia no uso de redes neurais artificiais com múltiplas camadas, capazes de modelar relações complexas em dados. Ao contrário de algoritmos tradicionais de aprendizado de máquina, que frequentemente dependem de extração manual de características, o aprendizado profundo consegue aprender automaticamente representações hierárquicas dos dados.
@@ -44,19 +46,18 @@ No caso da detecção de anomalias em trilhos ferroviários, as CNNs permitem qu
 
 \subsection{Transferência de aprendizado}
 
-Um dos desafios para o uso aprendizado profundo é a necessidade de grandes quantidades de dados rotulados para treinar redes neurais com bom desempenho.
-Esse problema se agrava no meio acadêmico, onde é difícil encontrar bancos de dados volumosos, fazendo com que o treinamento de uma rede do zero se torne inviávels.
-Para esse tipo de situação, foram criadas técnicas como a transferência de aprendizado.
+Um dos principais desafios para o uso aprendizado profundo é a necessidade de grandes volumes de dados rotulados para treinar redes neurais com desempenho satisfatório.
+Esse problema é ainda mais evidente no meio acadêmico, onde bancos de dados extensos nem sempre estão disponíves, tornando inviável o treinamento de modelos complexos a partir do zero
+Para contornar essa limitação, emprega-se a técnicas de transferência de aprendizado.
 
-A transferência de aprendizado consiste em aproveitar o conhecimento adquirido por um modelo previamente treinado em um grande dataset genérico, como ImageNet ou COCO, e aplicá-lo a uma nova tarefa com dados limitados.
-O modelo pré-treinado já aprendeu a identificar padrões visuais fundamentais que podem ser úteis em diversos domínios visuais, como bordas, formas e texturas.
+A transferência de aprendizado consiste em reutilizar o conhecimento adquirido por um modelo previamente treinado em um grande dataset genérico, como ImageNet ou COCO, aplicando-o a uma nova tarefa que dispõe de uma quantidade limitada de dados.
+Esses modelos pré-treinados já aprenderam a identificar padrões visuais fundamentais, como bordas, formas e texturas,  que tendem a ser úteis em diversos domínios.
 
-Na prática, o funcionamento da transferência de aprendizado pode ser divido em um processo em duas etapas:
+Na prática, o processo de transferência de aprendizado pode ser divido em duas etapas principais:
 
 \begin{enumerate}
-    \item \textbf{Congelamento do modelo professor:} o modelo pré-treinado mantém sua capacidade de reconhecer padrões aprendidos anteriormente, funcionando como uma base de conhecimento para outros modelos.
-    \item \textbf{Adaptação à nova tarefa:} o modelo é ajustado para identificar padrões específicos da nova aplicação. Permitindo que o modelo aprenda o que é relevante para a nova tarefa sem precisar começar do zero, fazendo com que ele aprenda mais, mesmo possuindo poucos dados.
-    Também é possível, no caso de modelos híbridos, fazer com que parte do processo final de pensamento do modelo professor seja adaptado para gerar o input para o modelo aluno, por exemplo, adaptar a camada totalmente conectada de uma CNN para ser o input de uma SVM.
+    \item \textbf{Congelamento do modelo base:} o modelo pré-treinado, frequentemente chamado de modelo professor, mantém seus pesos nas camadas iniciais e intermediárias, preservando a capacidade de extrair padrões gerais já aprendidos.
+    \item \textbf{Adaptação à nova tarefa:} as camadas finais do modelo são modificadas ou substituidas para se ajustarem ao novo problema. Essas camadas são então treinadas com o dataset específico, permitindo que o modelo aprenda características relevantes para a tarefa alvo sem necessidade de treinamento integral. Em modelos híbridos, essa etapa pode incluir a combinação de arquiteturas, como utilizar a saída da camada totalmente conectada de uma CNN como entrada para um classificador externo, por exemplo uma SVM.
 \end{enumerate}
 
 \begin{figure}[H]
@@ -68,6 +69,10 @@ Na prática, o funcionamento da transferência de aprendizado pode ser divido em
 \end{figure}
 
 Na Figura \ref{fig:transferencia de aprendizado} é demonstrado a diferença do processo de treinamento de uma CNN treinada do zero e treinamento de uma CNN pré-treinada, sendo necessário apenas modificar camada de saída da rede e realizar o aperfeiçoamento dos parâmetros.
+
+Neste trabalho, será utilizada uma redes neural convolucional pré-treinada para aproveitar o conhecimento adquirido por grandes modelos treinados em bases extensas e minimizar os impactos causados pelo uso de um dataset reduzido.
+
+A arquitetura escolhida foi a MobileNetV3, sendo esta uma melhoria do mobileNetV2 utilizada por \textcite{MobileNetV3} em seu trabalho de identificação de defeitos em pinos de fixação e amplamente recomendada para tratar de datasets pequenos, como é o caso.
 
 \subsection{Transformadores visuais}
 
@@ -95,15 +100,8 @@ O funcionamento básico de um Vision Transformer envolve:
 
 Transformadores visuais têm se mostrado altamente eficazes em tarefas onde a variabilidade de cenários é grande ou os datasets são limitados, pois conseguem aproveitar melhor a informação contextual e evitar confusões causadas por objetos próximos ou fundos complexos.
 
-Como observado no trabalho de Shahin et al, modelos híbridos, combinando CNNs e ViTs, também têm sido utilizados para aproveitar a extração local de CNNs e a consciência global dos transformadores, alcançando desempenho superior em detecção de defeitos ferroviários.
+Como observado no trabalho de \textcite{s24103247}, modelos híbridos, combinando CNNs e ViTs, também têm sido utilizados para aproveitar a extração local de CNNs e a consciência global dos transformadores, alcançando desempenho superior em detecção de defeitos ferroviários.
 Isso é feito, treinando CNNs em grandes datasets de imagens e utilizando-as para treinar os ViTs.
-%\cite{s24103247}
-
-\subsubsection{CNN pré-treinada}
-
-Será utilizada uma redes neural convolucionais pré-treinada para aproveitar o conhecimento adquirido por grandes modelos treinados em bases extensas como ImageNet e minimizar os impactos causados pelo uso de um dataset reduzido.
-
-A arquitetura escolhida foi a MobileNetV3, sendo esta uma melhoria do mobileNetV2 utilizada por \textcite{MobileNetV3} em seu trabalho de identificação de defeitos em pinos de fixação e amplamente recomendada para tratar de datasets pequenos, como é o caso.
 
 \subsubsection{SVM}
 

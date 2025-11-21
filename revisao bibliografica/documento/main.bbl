@@ -440,6 +440,75 @@
       \field{note}{Acessado em: 20 Nov 2025}
       \field{title}{Inteligência Artificial: Uma era de abundância ou o fim da espécie humana? -- Visão geral das redes neurais no aprendizado profundo}
     \endentry
+    \entry{s24103247}{article}{}{}
+      \name{author}{6}{}{%
+        {{un=0,uniquepart=base,hash=44ba456b533f6b92e22912cba8aa66f3}{%
+           family={Shahin},
+           familyi={S\bibinitperiod},
+           given={Mohammad},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4292601d68e12b55913098209a3fc9d6}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={F.\bibnamedelimi Frank},
+           giveni={F\bibinitperiod\bibinitdelim F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1483e58409d33d0417bd484e45ad4ff1}{%
+           family={Maghanaki},
+           familyi={M\bibinitperiod},
+           given={Mazdak},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f8c95b568bf0aee6e4825eb6c8fd54ca}{%
+           family={Hosseinzadeh},
+           familyi={H\bibinitperiod},
+           given={Ali},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=91902f42eab47a833f4b0d7d14572223}{%
+           family={Zand},
+           familyi={Z\bibinitperiod},
+           given={Neda},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f6acea857f21b5e3c3845e1209d6eeda}{%
+           family={Khodadadi\bibnamedelima Koodiani},
+           familyi={K\bibinitperiod\bibinitdelim K\bibinitperiod},
+           given={Hamid},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{2b31a800284c36aae118d9601832af1f}
+      \strng{fullhash}{bffdc3cdaf0489a5b6e5e3a6258d0840}
+      \strng{fullhashraw}{bffdc3cdaf0489a5b6e5e3a6258d0840}
+      \strng{bibnamehash}{2b31a800284c36aae118d9601832af1f}
+      \strng{authorbibnamehash}{2b31a800284c36aae118d9601832af1f}
+      \strng{authornamehash}{2b31a800284c36aae118d9601832af1f}
+      \strng{authorfullhash}{bffdc3cdaf0489a5b6e5e3a6258d0840}
+      \strng{authorfullhashraw}{bffdc3cdaf0489a5b6e5e3a6258d0840}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1424-8220}
+      \field{journaltitle}{Sensors}
+      \field{number}{10}
+      \field{title}{Improving the Concrete Crack Detection Process via a Hybrid Visual Transformer Algorithm}
+      \field{volume}{24}
+      \field{year}{2024}
+      \verb{doi}
+      \verb 10.3390/s24103247
+      \endverb
+      \verb{urlraw}
+      \verb https://www.mdpi.com/1424-8220/24/10/3247
+      \endverb
+      \verb{url}
+      \verb https://www.mdpi.com/1424-8220/24/10/3247
+      \endverb
+    \endentry
     \entry{TIONG2023104027}{article}{}{}
       \name{author}{3}{}{%
         {{un=0,uniquepart=base,hash=441606b5889e1fe412db22cd5a383229}{%

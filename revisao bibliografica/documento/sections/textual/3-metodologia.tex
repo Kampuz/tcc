@@ -20,18 +20,18 @@ O conjunto de \textcite{gpiosenka_railway_2022} contém 384 imagens de trilhos d
 Enquanto que o conjunto de \textcite{ashikadnan_railway_2021} contém 1399 imagens de pinos de fixação divididas entre 980 imagens de treinamento, 140 imagens de teste 280 imagens de validação
 
 \begin{figure}[H]
-    \caption{Conjunto de imagens do dataset em grade 2x2}
+    \caption{Conjunto de imagens do primeiro dataset em grade 2x2}
     \centering
     \begin{subfigure}[b]{0.45\linewidth}
         \centering
-        \includegraphics[width=0.8\linewidth]{images/dataset/boas condicoes.jpg}
+        \includegraphics[width=1\linewidth]{images/dataset/boas condicoes.jpg}
         \caption{Sem defeito}
         \label{fig:img1}
     \end{subfigure}
     \hfill
     \begin{subfigure}[b]{0.45\linewidth}
         \centering
-        \includegraphics[width=0.8\linewidth]{images/dataset/falta pino.jpg}
+        \includegraphics[width=1\linewidth]{images/dataset/falta pino.jpg}
         \caption{Defeituoso (ausência de pino superior)}
         \label{fig:img2}
     \end{subfigure}
@@ -40,14 +40,14 @@ Enquanto que o conjunto de \textcite{ashikadnan_railway_2021} contém 1399 image
     
     \begin{subfigure}[b]{0.45\linewidth}
         \centering
-        \includegraphics[width=0.8\linewidth]{images/dataset/fundacao.jpeg}
+        \includegraphics[width=1\linewidth]{images/dataset/fundacao.jpeg}
         \caption{Defeituoso (fundação)}
         \label{fig:img3}
     \end{subfigure}
     \hfill
     \begin{subfigure}[b]{0.45\linewidth}
         \centering
-        \includegraphics[width=0.8\linewidth]{images/dataset/rachadura.jpg}
+        \includegraphics[width=1\linewidth]{images/dataset/rachadura.jpg}
         \caption{Defeituoso (deformação nos trilhos)}
         \label{fig:img4}
     \end{subfigure}
@@ -59,18 +59,18 @@ Enquanto que o conjunto de \textcite{ashikadnan_railway_2021} contém 1399 image
 Como mencionado anteriormente, o segundo dataset não foi previamente redimensionado. Portanto suas imagens serão ajustadas para o formato 224x244x3,a fim de padronizar as dimensões e minimizar a heterogeneidade entre os diferentes conjuntos de dados.
 
 \begin{figure}[H]
-    \caption{Conjunto de imagens do segundo dataset}
+    \caption{Conjunto de imagens do segundo dataset em grade 1x2}
     \centering
     \begin{subfigure}[b]{0.45\linewidth}
         \centering
-        \includegraphics[width=0.8\linewidth]{images/dataset/2defeituoso.jpg}
+        \includegraphics[width=1\linewidth]{images/dataset/2defeituoso.jpg}
         \caption{Defeituoso}
         \label{fig:img1 dataset2}
     \end{subfigure}
     \hfill
     \begin{subfigure}[b]{0.45\linewidth}
         \centering
-        \includegraphics[width=0.8\linewidth]{images/dataset/2ok.jpg}
+        \includegraphics[width=1\linewidth]{images/dataset/2ok.jpg}
         \caption{Sem defeito}
         \label{fig:img2 dataset2}
     \end{subfigure}
@@ -86,11 +86,9 @@ A arquitetura escolhida foi a MobileNetV3, sendo esta uma melhoria do mobileNetV
 
 \subsubsection{SVM}
 
-Neste modelo híbrido, uma CNN pré-treinada será utilizada como extratora de características. As últimas camadas convolucionais produzem vetores representativos do conteúdo visual da imagem, que são utilizados como entrada para a SVM.
+Embora máquinas de vetores de suporte (SVM) não sejam técnicas de aprendizado profundo, será utilizado SVM de modelo híbrido. Para isso, a CNN pré-treinada será utilizada como extratora de características para a SVM. As últimas camadas convolucionais irão produzir vetores representativos do conteúdo visual da imagem, que serão utilizados como input pela SVM, evitando a necessidade de extração de características manuais.
 
-
-\subsubsection{ViT e DeiT}
-
+Ela será utilizada como baseline para os outros métodos, visto que, métodos de aprendizado profundo devem produzir resultados melhores que métodos tradicionais como SVM.
 
 \subsection{Resultados Esperados}
 
