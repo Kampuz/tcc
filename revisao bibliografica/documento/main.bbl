@@ -563,6 +563,46 @@
       \endverb
       \keyw{Train delay prediction,Data-driven prediction,Technical development,Railway operations and information}
     \endentry
+    \entry{article2}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=195367e8833db141749f5d9f1b149638}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Jujie},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=dcc0ee8b75bd70bb8d74edebb9369881}{%
+           family={Zhu},
+           familyi={Z\bibinitperiod},
+           given={Shuzhou},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{6ed0f14a4bd52a1bac886232b16107ca}
+      \strng{fullhash}{6ed0f14a4bd52a1bac886232b16107ca}
+      \strng{fullhashraw}{6ed0f14a4bd52a1bac886232b16107ca}
+      \strng{bibnamehash}{6ed0f14a4bd52a1bac886232b16107ca}
+      \strng{authorbibnamehash}{6ed0f14a4bd52a1bac886232b16107ca}
+      \strng{authornamehash}{6ed0f14a4bd52a1bac886232b16107ca}
+      \strng{authorfullhash}{6ed0f14a4bd52a1bac886232b16107ca}
+      \strng{authorfullhashraw}{6ed0f14a4bd52a1bac886232b16107ca}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Cognitive Computation}
+      \field{month}{04}
+      \field{title}{A Novel Stock Index Direction Prediction Based on Dual Classifier Coupling and Investor Sentiment Analysis}
+      \field{volume}{15}
+      \field{year}{2023}
+      \field{pages}{1\bibrangedash 19}
+      \range{pages}{19}
+      \verb{doi}
+      \verb 10.1007/s12559-023-10137-4
+      \endverb
+    \endentry
     \entry{MobileNetV3}{article}{}{}
       \name{author}{8}{}{%
         {{un=0,uniquepart=base,hash=bc4324d48206f89c538a4378f076d187}{%

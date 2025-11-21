@@ -103,6 +103,15 @@ Transformadores visuais têm se mostrado altamente eficazes em tarefas onde a va
 Como observado no trabalho de \textcite{s24103247}, modelos híbridos, combinando CNNs e ViTs, também têm sido utilizados para aproveitar a extração local de CNNs e a consciência global dos transformadores, alcançando desempenho superior em detecção de defeitos ferroviários.
 Isso é feito, treinando CNNs em grandes datasets de imagens e utilizando-as para treinar os ViTs.
 
-\subsubsection{SVM}
+\subsection{SVM}
+Embora máquinas de vetores de suporte (SVM) não sejam técnicas de aprendizado profundo, será utilizado SVM de modelo híbrido. Para isso, a CNN pré-treinada será utilizada como extratora de características para a SVM. As últimas camadas convolucionais irão produzir vetores representativos do conteúdo visual da imagem, que serão utilizados como input pela SVM, evitando a necessidade de extração de características manuais.
 
-Neste modelo híbrido, uma CNN pré-treinada será utilizada como extratora de características. As últimas camadas convolucionais produzem vetores representativos do conteúdo visual da imagem, que são utilizados como entrada para a SVM.
+Ela será utilizada como baseline para os outros métodos, visto que, métodos de aprendizado profundo devem produzir resultados melhores que métodos tradicionais como SVM.
+
+\begin{figure}[H]
+    \centering
+    \caption{Exemplificação do funcionamento de uma arquitetura SVM+CNN}
+    \includegraphics[width=0.8\linewidth]{images/SVMCNN.png}\\
+    \fonteimagem{Fonte: \textcite{article2}}
+    \label{fig:SVM}
+\end{figure}

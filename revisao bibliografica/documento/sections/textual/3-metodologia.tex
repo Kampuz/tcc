@@ -11,13 +11,29 @@ As imagens originais possuem alta resolução, o que torna o pré-processamento 
 Também será utilizado o dataset \textit{Railway Track Fault Detection | Dataset2(Fastener)}, disponibilizado na plataforma Kaggle por \textcite{ashikadnan_railway_2021}.
 Porém, ao contrário do conjunto anterior, esse conjunto contém apenas imagens de pinos de fixação e não foi redimensionado.
 
-\subsubsection{informações sobre os datasets}
-
 Ambos os datasets são compostos pelo mesmo número de imagens com e sem anomalias.
-
 O conjunto de \textcite{gpiosenka_railway_2022} contém 384 imagens de trilhos divididas entre 300 imagens de treinamento, 22 imagens de teste e 62 imagens de validação. Esse conjunto contém tres tipos de anomalias:  ausência de pinos de fixação, deformações e rachaduras nos trilho e danos na fundação do trilho (parte de madeira transversal ao trilho).
-
 Enquanto que o conjunto de \textcite{ashikadnan_railway_2021} contém 1399 imagens de pinos de fixação divididas entre 980 imagens de treinamento, 140 imagens de teste 280 imagens de validação
+
+Como mencionado anteriormente, o segundo dataset não foi previamente redimensionado. Portanto suas imagens serão ajustadas para o formato 224x244x3,a fim de padronizar as dimensões e minimizar a heterogeneidade entre os diferentes conjuntos de dados.
+
+\begin{figure}[H]
+    \caption{Conjunto de imagens do segundo dataset em grade 1x2}
+    \centering
+    \begin{subfigure}[b]{0.45\linewidth}
+        \centering
+        \includegraphics[width=1\linewidth]{images/dataset/2defeituoso.jpg}
+        \caption{Defeituoso}
+        \label{fig:img1 dataset2}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}[b]{0.45\linewidth}
+        \centering
+        \includegraphics[width=1\linewidth]{images/dataset/2ok.jpg}
+        \caption{Sem defeito}
+        \label{fig:img2 dataset2}
+    \end{subfigure}
+\end{figure}
 
 \begin{figure}[H]
     \caption{Conjunto de imagens do primeiro dataset em grade 2x2}
@@ -56,50 +72,39 @@ Enquanto que o conjunto de \textcite{ashikadnan_railway_2021} contém 1399 image
     \label{fig:grade4}
 \end{figure}
 
-Como mencionado anteriormente, o segundo dataset não foi previamente redimensionado. Portanto suas imagens serão ajustadas para o formato 224x244x3,a fim de padronizar as dimensões e minimizar a heterogeneidade entre os diferentes conjuntos de dados.
-
-\begin{figure}[H]
-    \caption{Conjunto de imagens do segundo dataset em grade 1x2}
-    \centering
-    \begin{subfigure}[b]{0.45\linewidth}
-        \centering
-        \includegraphics[width=1\linewidth]{images/dataset/2defeituoso.jpg}
-        \caption{Defeituoso}
-        \label{fig:img1 dataset2}
-    \end{subfigure}
-    \hfill
-    \begin{subfigure}[b]{0.45\linewidth}
-        \centering
-        \includegraphics[width=1\linewidth]{images/dataset/2ok.jpg}
-        \caption{Sem defeito}
-        \label{fig:img2 dataset2}
-    \end{subfigure}
-\end{figure}
 
 \subsection{Modelos}
 
-\subsubsection{CNN pré-treinada}
+Os seguintes métodos serão analísados:
 
-Será utilizada uma redes neural convolucionais pré-treinada para aproveitar o conhecimento adquirido por grandes modelos treinados em bases extensas como ImageNet e minimizar os impactos causados pelo uso de um dataset reduzido.
+\begin{itemize}
+    \item \textbf{ResNet} (emprega conexões residuais para facilitar o treinamento de redes profundas);
+    \item \textbf{InceptionV3} (utiliza blocos com múltiplos filtros paralelos para capturar padrões em diferentes escalas);
+    \item \textbf{MobileNetV3} (adota convoluções separáveis e blocos otimizados para dispositivos de baixo custo computacional);
 
-A arquitetura escolhida foi a MobileNetV3, sendo esta uma melhoria do mobileNetV2 utilizada por \textcite{MobileNetV3} em seu trabalho de identificação de defeitos em pinos de fixação e amplamente recomendada para tratar de datasets pequenos, como é o caso.
+    \item \textbf{CNN + SVM} (a CNN extrai características e a SVM classifica, funcionando como baseline simples e interpretável);
 
-\subsubsection{SVM}
+    \item \textbf{ViT – Vision Transformer} (divide a imagem em patches e usa autoatenção global para capturar dependências longas);
+    \item \textbf{DeiT} (versão otimizada do ViT com treinamento mais eficiente e menor necessidade de dados);
+    \item \textbf{Swin Transformer} (utiliza janelas de autoatenção deslizantes e hierárquicas para reduzir custo computacional);
 
-Embora máquinas de vetores de suporte (SVM) não sejam técnicas de aprendizado profundo, será utilizado SVM de modelo híbrido. Para isso, a CNN pré-treinada será utilizada como extratora de características para a SVM. As últimas camadas convolucionais irão produzir vetores representativos do conteúdo visual da imagem, que serão utilizados como input pela SVM, evitando a necessidade de extração de características manuais.
+    \item \textbf{ConViT} (combina convoluções com autoatenção, introduzindo “soft convolution” para transição suave entre ambos);
+    \item \textbf{MobileViT} (integra blocos MobileNet com módulos tipo Transformer, oferecendo baixo custo e atenção global);
 
-Ela será utilizada como baseline para os outros métodos, visto que, métodos de aprendizado profundo devem produzir resultados melhores que métodos tradicionais como SVM.
+    \item \textbf{Rail-Former} (usa encoder–decoder com autoatenção e módulo Criss-Cross para preservar detalhes finos de defeitos ferroviários);
+    \item \textbf{TrackNet} (aplica autoatenção multi-head e transferência de aprendizado para melhorar detecção em trilhos com dados limitados).
+\end{itemize}
 
 \subsection{Resultados Esperados}
 
-Espera-se que os modelos desenvolvidos sejam capazes de identificar com elevada precisão os diferentes tipos de defeitos presentes nas imagens do conjunto de dados.
-Em particular, os resultados esperados incluem:
+Espera-se que os modelos desenvolvidos sejam capazes de identificar, com precisão alta, os diferentes tipos de defeitos presentes nas imagens do conjunto de dados.
+De forma geral, os resultados esperados incluem:
 
 \begin{itemize}
 \item Os modelos baseados em aprendizado profundo obtenham desempenho superior aos métodos clássicos.
 \item As arquiteturas que utilizam transferência de aprendizado apresentem resultados mais estáveis e eficientes mesmo com um conjunto de dados limitado.
-\item Os modelos sejam capazes de generalizar para imagens de contextos distintos, mantendo desempenho consistente mesmo diante de variações de iluminação, ângulo ou ruído.
-\item A análise comparativa permita identificar quais modelos são mais adequados para detecção automática de defeitos ferroviários e justificar suas vantagens técnicas.
+\item Os modelos devem demonstrar capacidade de generalização,  consistente mesmo diante de variações de iluminação, ângulo ou ruído.
+\item A análise comparativa identificar quais arquiteturas são mais adequadas para detecção automática de defeitos ferroviários e justificar suas vantagens técnicas.
 \end{itemize}
 
 \subsection{Avaliação dos Resultados}
@@ -139,6 +144,7 @@ A partir da matriz de confusão, quatro métricas amplamente utilizadas na avali
     \item \textbf{F1-score} \\
     Média harmônica entre precisão e revocação.
     Resume ambas as métricas em um único valor equilibrado.
+    Amplamente utilizada na literatura de machine learning.
     \[
         F1 = 2 \cdot \frac{P \cdot R}{P + R}
     \]
